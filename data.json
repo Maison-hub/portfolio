@@ -1,0 +1,475 @@
+{
+  "CreationGraphique": {
+    "titre": "Création Graphique",
+    "date": "2022 - 2023",
+    "mission": "DESIGN",
+    "description": "Cette section regroupe les projets de créations graphiques réalisés pendant mes études de MMI. Que ce soit dans le cadre de mes cours ou pendant mon temps libre. Vous pourrez retrouver des créations de poster et tout autre type de création graphique.",
+    "cover": "./asset/projets/CreationGraphique/cover.png",
+    "lien": "./projet.html?name=CreationGraphique",
+    "sections": [
+      {
+        "type": "rightImg",
+        "elements": [
+          {
+            "type":"titre",
+            "content":"Ursonate"
+          },
+          {
+            "type": "paragraphe",
+            "content" : "Cette affiche a été réalisé dans le cadre des cours de MMI. L'exercice était de réaliser une affiche à partir de la musique Ursonate de Kurt Schwitters. Nous avons donc écouté la musique et nous avons dû réaliser une affiche qui retranscrivait l'ambiance de la musique. J'ai donc choisi de réaliser une affiche avec un fond noir et des éléments éparpillés qui représente les notes de musique et les saccades irrégulières. J'ai également utilisé des couleurs vives pour représenter le côté joyeux et énergique de la musique."
+          },
+          {
+            "type": "img",
+            "orientation": "portrait",
+            "content": "./asset/projets/CreationGraphique/afficheUrsonate.png"
+          }
+        ]
+      },
+      {
+        "type":"leftImg",
+        "elements": [
+          {
+            "type":"titre",
+            "content":"NOVAE"
+          },
+          {
+            "type":"paragraphe",
+            "content": "Pour ce projet de cours nous avons dû utiliser la technique de vectorisation d'image pour créer un visuel d'un artiste musical de notre choix. J'ai choisi Yvnnis avec son dernier projet 'NOVAE'. J'ai réutilisé les couleurs bleu et jaune de la cover pour rester dans son univers."
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/CreationGraphique/yvnnis.png"
+          }
+        ]
+      },
+      {
+        "type":"rightImg",
+        "elements":[
+          {
+            "type":"titre",
+            "content":"Luther"
+          },
+          {
+            "type":"paragraphe",
+            "content":"PPour ce visuel que j'ai réalisé sur mon temps libre je me suis inspiré d'un tuto et je l'ai adapté pour créer un fond d'écran personnalisé d'un de mes artistes musicaux préféré."
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/CreationGraphique/luther.png"
+          }
+        ]
+      },
+      {
+        "type": "leftImg",
+        "elements":[
+          {
+            "type":"titre",
+            "content":"Pink Floyd"
+          },
+          {
+            "type":"paragraphe",
+            "content":"Ici l'exercice était de créer une pochette de disque à base d'élément tiré du clip de la musique 'Learning To fly' des Pink Floyd. J'ai donc détouré les personnages et créé un double fond pour sortir du cadre le personnage en train de voler."
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/CreationGraphique/learningToFly.png"
+          }
+        ]
+      },
+      {
+        "type":"rightImg",
+        "elements":[
+          {
+            "type":"titre",
+            "content":"Photomontage surréaliste"
+          },
+          {
+            "type":"paragraphe",
+            "content":"Dans le cadre du cours de culture Artistique nous avons réalisé un photomontage surréaliste à partir de photo vintage. Le tout en utilisant un contraste fort. Le but était de faire un collage de plusieurs images pour créer un visuel improbable."
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/CreationGraphique/photomontageSurrealiste.png"
+          }
+        ]
+      },
+      {
+        "type":"leftImg",
+        "elements":[
+          {
+            "type":"titre",
+            "content":"Affiche Everything everywhere all at once"
+          },
+          {
+            "type":"paragraphe",
+            "content":"Après avoir vu le film 'Everything everywhere all ate once' j'ai voulu réaliser un visuel sur le personnage principal en utilisant la technique du dégradé de forme d'illustrateur. Cette affiche a été réalisée sur mon temps libre et m'as permis de me familiariser avec Illustrator ainsi que Photoshop."
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/CreationGraphique/afficheEEAAO.png"
+          }
+        ]
+      }
+    ]
+  },
+  "Atipik": {
+    "titre": "Atipik",
+    "date": "2023",
+    "mission": "DESIGN, COMMUNICATION",
+    "description": "Nous avons créé dans notre groupe de trois étudiants une marque fictive de chips. Nous avons réalisé un logo, un packaging et une charte graphique. Nous nous sommes également occupé de choisir un nom un slogan et un positionnement sur le marché de la chip.",
+    "cover": "./asset/projets/atipik/cover.png",
+    "lien": "./projet.html?name=Atipik",
+    "sections": [
+      {
+        "type": "rightImg",
+        "elements": [
+          {
+            "type":"titre",
+            "content":"Création projet"
+          },
+          {
+            "type": "paragraphe",
+            "content" : "Ce projet est le résultat d'un exercice de la matière 'stratégie de communication' l'objectif de l'exercice était de créer un produit innovant dans un secteur existant. Nous avons choisi les chips pour leur possibilité de déclinaisons et leur positionnement sur le marché. Nous avons donc créé une marque de chips innovante et écoresponsable."
+          }
+        ]
+      },
+      {
+        "type":"leftImg",
+        "elements": [
+          {
+            "type":"paragraphe",
+            "content": "Nous avons commencé par trouver un nom pour notre marque. Étant donnée que nous voulions créer une marque de chips avec des gouts originaux et jamais vus nous n'avons choisi 'Atipik'. Nous devions également trouver un slogan pour notre marque. Nous avons donc choisi 'Qui s'y frotte Typik' qui est un jeu de mots avec le nom de la marque et qui met en avant le côté original de notre marque."
+          }
+        ]
+      },
+      {
+        "type":"rightImg",
+        "elements":[
+          {
+            "type":"titre",
+            "content":"Logo"
+          },
+          {
+            "type":"paragraphe",
+            "content":"Nous avons créé un logo qui met en avant le côté original de notre marque. Nous avons donc choisit une police de caractères qui sort de l'ordinaire et qui est facilement reconnaissable. Nous avons également utilisé un point d'exclamation pour mettre en avant le côté original de notre marque. Le logo est une sorte de mascotte représenté par un hérisson. Nous avons fait ce choix pour coller au piquant du nom de la marque et c'est également une association avec l'éco-responsabilité de notre marque."
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/atipik/logo.png"
+          }
+        ]
+      },
+      {
+        "type": "leftImg",
+        "elements":[
+          {
+            "type":"titre",
+            "content":"Packaging"
+          },
+          {
+            "type":"paragraphe",
+            "content":"Nous avons réalisé avec des mockups Photoshop des prototypes de packaging. Nous avons au moment de la création déterminé un certain nombre de gouts originaux avec pour chacun d'entre eux un jeu de mots à inscrire sur le paquet. Par exemple pour le goût huitre le jeu de mots est 'à manger par huitre'."
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/atipik/cover.png"
+          }
+        ]
+      },
+      {
+        "type":"imageGal",
+        "elements":[
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/atipik/goutnuage.png"
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/atipik/goutpasteque.png"
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/atipik/goutpate.png"
+          }
+        ]
+      },
+      {
+        "type":"rightImg",
+        "elements":[
+          {
+            "type":"titre",
+            "content":"Charte graphique"
+          },
+          {
+            "type":"paragraphe",
+            "content":"Enfin nous avons regroupé tout ce que nous avons créé dans une charte graphique. Nous avons définit les couleurs principales le  logo le slogan avec la police et un exemple de packaging."
+          },
+          {
+            "type":"img",
+            "orientation":"portrait",
+            "content":"./asset/projets/atipik/charteGraphique.png"
+          }
+        ]
+      }
+    ]
+  },
+  
+    "VeloStan": {
+      "titre": "Velo Stan",
+      "date": "2022",
+      "mission": "UI, UX, DEV WEB",
+      "description": "Ce projet est un site web fictif qui a pour but donner des informations sur les vélos en libre accès de la ville de Nancy. Ce projet a été réalisé dans le cadre de mes études de BUT MMI. En binôme nous avons créé un site web actualisé en temps réel et renseignant sur la disponibilité des vélos cela en abordant de nouvelles problématiques.",
+      "cover": "./asset/projets/veloStan/cover.png",
+      "lien": "./projet.html?name=VeloStan",
+      "projectLink": "https://maison-hub.github.io/velostan/",
+      "sections": [
+        {
+          "type": "rightImg",
+          "elements": [
+            {
+              "type":"titre",
+              "content":"Rapide explication"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "Les SAE (Situations d'apprentissage et d'évaluation) sont les projets majeurs à réaliser en BUT. Ce projet est le résultat de la SAE 105 un projet majeur qui met en relation différentes matières telles que le développement web, l'intégration ou encore l'hébergement"
+            }
+          ]
+        },
+        {
+          "type": "fullImage",
+          "elements":[
+            {
+              "type":"titre",
+              "content":"Webdesign"
+            },
+            {
+              "type":"paragraphe",
+              "content": "Avant de passer au développement j'ai réalisé une maquette de la page d'accueil. Cela a permis de fixer le style et un pseudo charte graphique/design système. Nous avons donc grace à cette maquette réalisé un site web cohérent dans son ensemble"
+            },
+            {
+              "type":"figma",
+              "content": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1);\" width=\"800\" height=\"450\" src=\"https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FdfxwkbkETCIMmewJCdDiqs%2FSAE_105%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3DF4lkdNV4RFOiXSiy-1\" allowfullscreen></iframe>"
+            }
+          ]
+        },
+        {
+          "type": "leftImg",
+          "elements": [
+            {
+              "type":"titre",
+              "content":"Les problématique"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "Ce projet nous a permis de nous confronter à des problématiques nouvelles. La principale difficulté était l'accès aux données en temps réel. Nous avons utilisé pour cela la fonction \"fetch\" en Javascript. Cela nous a permis de récupérer les données d'un fichier json diffusées par le ministère des transports. Une fois ces données récupérées nous les avons traité et organisé pour les rendre à l'utilisateur de manière agréable. La seconde problématique était l'implémentation d'une carte et l'affichage de marker pour localiser les stations. Pour ce faire nous avons utilisé open Street map et nous avons placé les stations grace à leur longitude et latitude. Enfin nous avons implémenté un algorithme qui calcule la station la plus proche de vous grace a votre localisation."
+            }
+          ]
+        },
+        {
+          "type": "imageGal",
+          "elements": [
+            {
+              "type": "img",
+              "orientation": "paysage",
+              "content": "./asset/projets/veloStan/select.png"
+            },
+            {
+              "type": "img",
+              "orientation": "paysage",
+              "content": "./asset/projets/veloStan/carte.png"
+            }
+          ]
+        },
+        {
+          "type": "leftImg",
+          "elements": [
+            {
+              "type":"titre",
+              "content":"Responsive"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "En raison des fonctionnalités de localisation et de recherche de station nous avons pensé que la majorité des utilisateurs serait sur le mobile c'est pourquoi le site a été pensé pour être responsive. Nous avons implémenté une barre de navigation inférieure sur mobile et nous avons utilisé des unités relatives en CSS: Vw, Vh, %."
+            }
+          ]
+        },
+        {
+          "type": "imageGal",
+          "elements": [
+            {
+              "type": "img",
+              "orientation": "portrait",
+              "content": "./asset/projets/veloStan/mobileHome.png"
+            },
+            {
+              "type": "img",
+              "orientation": "portrait",
+              "content": "./asset/projets/veloStan/mobileCarte.png"
+            },
+            {
+              "type": "img",
+              "orientation": "portrait",
+              "content": "./asset/projets/veloStan/mobileSupport.png"
+            }
+          ]
+        },
+        {
+          "type": "leftImg",
+          "elements": [
+            {
+              "type":"titre",
+              "content":"Fonctionalité supplémentaire"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "Nous avons décidé de rajouter un mode clair au site. Un petit challenge qui dépasse le \"cahier des charges\" mais qui nous ont permis d'en apprendre plus sur la manipulation des variables Css."
+            }
+          ]
+        },
+        {
+          "type": "imageGal",
+          "elements": [
+            {
+              "type": "img",
+              "orientation": "paysage",
+              "content": "./asset/projets/veloStan/indexDark.png"
+            },
+            {
+              "type": "img",
+              "orientation": "paysage",
+              "content": "./asset/projets/veloStan/indexClair.png"
+            }
+          ]
+        },
+        {
+          "type": "leftImg",
+          "elements": [
+            {
+              "type":"titre",
+              "content":"L'Hebergement"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "Comme l'indiquait les consignes nous avons hébergé le site sur le serveur pédagogique Webetu. Nous avons établi une connexion au serveur en SFTP avec FileZilla ce qui nous ont permis de transférer les fichiers. Cependant l'accès au site par navigateur nécessite un login à l'université j'ai donc également hébergé le site sur git hub"
+            }
+          ]
+        },
+        {
+          "type": "leftImg",
+          "elements": [
+            {
+              "type":"titre",
+              "content":"Apport personnel"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "Ce projet m'a permis de découvrir l'utilisation de fichier json, l'intégration d'une carte sur un site web, l'utilisation des autos layout dans figma. En général ce projet m'a rendu plus à l'aise avec l'utilisation de figma et l'intégration de maquette. Enfin j'ai exploré la responsive avec l'implémentation d'un menu mobile"
+            }
+          ]
+        }
+      ]
+    },
+    "Bot-lane": { 
+      "titre": "Bot Lane",
+      "date": "2021",
+      "mission": "DEV WEB",
+      "description": "Bot Lane est un projet réalisé en binôme lors de mon année de première au lycée. Ce projet consistait en la création d'un bot Discord, ainsi que d'un site web pour le présenter. Le bot que nous avons créé avait pour but d'automatiser certaines taches sur le serveur Discord auquel il était associé, telles que la modération des messages, il permettait également de jouer à de petits jeux ou créer des équipes aléatoires par exemple.",
+      "cover": "./asset/projets/botLane/cover.png",
+      "lien": "./projet.html?name=Bot-lane",
+      "projectLink": "https://maison-hub.github.io/LaneV1/",
+      "sections": [
+        {
+          "type": "rightImg",
+          "elements": [
+            {
+              "type":"titre",
+              "content":"Rapide explication"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "La nature du projet de première étant libre nous avons décidé de nous pencher sur la création d'un bot discord. Nous avons baptisé ce Bot: Bot lane en référence au jeu Ligue of Légende et sa carte iconique. Au départ de ce projet nous n'avions jamais manipulé de librarie Python comme discord.py et je n'avais jamais créé de site internet entier seulement quelques pages."
+            }
+          ]
+        },
+        {
+          "type": "leftImg",
+          "elements": [
+            {
+              "type":"titre",
+              "content":"Le logo"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "J'ai réalisé le logo en ayant envie de me référer à la forme de la carte du jeu ligue of légende. Après avoir dessiné le logo sur papier je l'ai vectorisé grâce à illustrateur. Le choix des couleurs a été fait pour qu'elles cohabitent en harmonie elles sont donc un choix plus esthétique que symbolique. Cependant elles retransmettent une certaine modernité et technologie."
+            },
+            {
+              "type": "img",
+              "orientation": "paysage",
+              "content": "./asset/projets/botLane/logoImg.png"
+            }
+          ]
+        },
+        {
+          "type": "rightImg",
+          "elements":[
+            {
+              "type":"titre",
+              "content":"Le site internet"
+            },
+            {
+              "type": "paragraphe",
+              "content" : "Le site internet a été codé en HTML, CSS, Javascript sans framework ou librarie sauf pour la barre de navigation qui utilise à bootstrap pour etre responsive. Le site a été codé sans référence à un design en raison du temps et de mes compétences a l'époque de la réalisation. Le site est entièrement responsif. J'ai travaillé également le SEO grace aux balises Meta/OG et a l'utilisation de mots clés"
+            },
+            {
+              "type": "img",
+              "orientation": "paysage",
+              "content": "./asset/projets/botLane/website.png"
+            }
+          ]
+        },
+        {
+          "type": "leftImg",
+          "elements":[
+            {
+              "type":"titre",
+              "content":"Hebergement"
+            },
+            {
+              "type": "paragraphe",
+              "content": "Au moment du rendu le site était hébergé sur Hostiger et possédait son propre nom de domaine pour être indexé par les moteurs de recherche. Le script python était quant à lui héberger sur Heroku. Malheureusement ce projet n'est plus fonctionnel à l'heure actuelle."
+            },
+            {
+              "type": "img",
+              "orientation": "portrait",
+              "content": "./asset/projets/botLane/hebergement.png"
+            }
+          ]
+        },
+        {
+          "type":"text",
+          "elements":[
+            {
+              "type":"titre",
+              "content":"Apport personnel"
+            },
+            {
+              "type":"paragraphe",
+              "content": "Ce projet m'a permis de réaliser mon premier site web complet et a fortement développé mes compétences en HTML, CSS et Javascript. Il m'a également permis de découvrir la librarie Discord .py. De plus j'ai découvert comment se passent l'hébergement d'un site internet et certains ressorts du SEO"
+            }
+          ]
+        }
+      ]
+  }
+}
+  
