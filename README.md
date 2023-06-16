@@ -6,14 +6,15 @@ Le template est entièrement personnalisable et repose principalement sur un fic
 
 ### Get Started
 
->**Note**
+>**Note** <br>
 >Pour fonctionner le template doit être heberger pour que le `URLSearchParams` puisse fonctionner.
 
 
 Pour modifier la page d'accueil accedez au fichier `index.html` et modifiez le texte dans les balises.
 
->**Warning**
+>**Warning**<br>
 >ne pas toucher a la balise vide avec la classe projectContainer
+
 ```html
 <section class="projetContainer" id="projetContainer">
     <!-- ici seront inseré les projets  -->
@@ -44,10 +45,10 @@ Ajoutez les informations de votre projets dans les champs prévu
 
 
 
->**Note**
+>**Note**<br>
 >Le projectLink doit être un lien vers une page web et non vers un fichier html.
 
->**Warning**
+>**Warning**<br>
 >La valeure de name= dans le lien doit être identique a la valeure de la clé du projet dans le fichier `data.json`
 
 ### Section
@@ -96,7 +97,7 @@ Le type de l'element correspond au type de l'element que vous voulez afficher. I
 | :--------------- |:---------------|:---------------|:----------------|
 | img  | chemin d'accès a votre image| portrait ou paysage | affiche une image  |
 
->**Note**
+>**Note**<br>
 >Il est conseillé de mettre un element de type figma dans une section de type `fullImg` pour avoir un rendu en full width sur votre page
 
 
