@@ -1,5 +1,7 @@
 # Template Portfolio
 
+<img width="1120" alt="image" src="https://github.com/Maison-hub/portfolio/assets/73071779/b7324e7c-97e1-4bca-84d9-b6f3a129cad0">
+
 ## Basé sur HTML, CSS et JavaScript
 
 Le template est entièrement personnalisable et repose principalement sur un fichier Json vous pouvez l'utiliser a condition de laisser un lien vers le repository github :)
