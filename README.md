@@ -1,9 +1,5 @@
 # Template Portfolio
 
-[<kbd> <br> Telecharger le template <br> </kbd>][Link]
-
-[Link]: 'https://github.com/Maison-hub/portfolio/archive/refs/heads/main.zip'
-
 <img width="1120" alt="image" src="https://github.com/Maison-hub/portfolio/assets/73071779/b7324e7c-97e1-4bca-84d9-b6f3a129cad0">
 
 ## Basé sur HTML, CSS et JavaScript
