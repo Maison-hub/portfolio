@@ -2,12 +2,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   app: {
     head: {
       link: [
@@ -17,4 +19,6 @@ export default defineNuxtConfig({
       ]
     },
   },
+
+  modules: ["@nuxt/content"]
 })

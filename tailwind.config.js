@@ -12,7 +12,17 @@ export default {
     extend: {
       backgroundImage: {
         mainBg: "url('~/assets/images/background/bg.png')",
-      }
+        star: "url('~/assets/images/star.svg')",
+      },
+      animation: {
+        'loop-scroll': 'loop-scroll 15s linear infinite',
+      },
+      keyframes: {
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
     },
     borderRadius: {
       huge: '28px',
@@ -38,7 +48,7 @@ export default {
         '900': '#135095',
         '950': '#11315a',
       },
-      'shark': {
+      'gray': {
         '50': '#f7f8f8',
         '100': '#edeef1',
         '200': '#d7dae0',
