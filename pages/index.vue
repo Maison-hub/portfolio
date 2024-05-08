@@ -42,10 +42,21 @@
             <IndexProjects />
 
         </section>
+
+        <section id="iam">
+
+                <IconCard icon="user" text="Qui suis-je ?" />
+
+
+        </section>
+        
     </div>
 </template>
 
 <script lang="ts" setup>
+
+//set icon default color
+const iconColor = '#2194FF';
 
 </script>
 

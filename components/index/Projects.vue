@@ -8,11 +8,22 @@ const { data } = await useAsyncData('projects', () => queryContent('/projects').
 
 
 <template>
-    <div class="flex flex-row gap-4 ">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+    <div class="flex flex-col pl-12">
+        <h2 class="text-2xl font-bold mb-8">Mes derniers projets</h2>
+
+        <div class="flex flex-row gap-4 overflow-x-auto">
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+        </div>
+
     </div>
+
 
 
 
