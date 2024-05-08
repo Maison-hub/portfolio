@@ -39,6 +39,7 @@
 
         <section id="projects">
 
+            <IndexProjects />
 
         </section>
     </div>

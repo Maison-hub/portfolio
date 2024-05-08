@@ -23,15 +23,21 @@ export default {
           to: { transform: "translateX(-100%)" },
         },
       },
-    },
-    borderRadius: {
-      huge: '28px',
+      borderRadius: {
+        huge: '28px',
+        projectCard: '22px', // ⚠️ si on modifie cette valeur ne pas oublier de modifier borderRadius.imgProject
+        imgProject: '10px', // est egal a borderRadius.projectCard - padding.projectCard
+      },
+      padding: {
+        projectCard: '12px' // ⚠️ si on modifie cette valeur ne pas oublier de modifier borderRadius.imgProject
+      }
     },
     colors: {
+      red: '#FF0000',
       aqua: '#2EFAFA',
       white : '#DBE8FE',
-      surface: '#DBE8FE10',
-      surface2: '#DBE8FE30',
+      surface: '#DBE8FE15',
+      surface2: '#DBE8FE35',
       background: '#00050F',
       black: '#00050F',
       black2: '#05000A',
