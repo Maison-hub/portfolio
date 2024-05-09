@@ -9,10 +9,10 @@ defineProps<{
 </script>
 
 <template>
-    <div class="flex flex-col items-center border border-surface rounded-xl w-1/6 py-8">
+    <div class="flex flex-row gap-2 items-center border border-surface rounded-xl py-2">
 
         <div>
-            <Icon :name="icon" :color="iconColor" class="text-4xl"/>
+            <Icon :name="icon" color="#2EFAFA" class="text-2xl text-aqua"/>
         </div>
 
         <div>

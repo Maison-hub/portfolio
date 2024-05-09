@@ -37,17 +37,39 @@
 
         </section>
 
-        <section id="projects">
+        <section id="projects" class="mb-16">
 
             <IndexProjects />
 
         </section>
 
         <section id="iam">
+            <h2 class="text-2xl font-bold mb-8 text-center">
+                Je suis
+            </h2>
+            <div class="flex flex-row items-center justify-center gap-8">
+                <IconCard icon="tabler:palette" :iconColor="iconColor" text="Créatif" />
+                <IconCard icon="tabler:flame" :iconColor="iconColor" text="Passioné" />
+                <IconCard icon="tabler:search" :iconColor="iconColor" text="Méticuleux" />
+            </div>
 
-                <IconCard icon="user" text="Qui suis-je ?" />
+            <div>
+                <p class="px-[12vw] py-4 md:py-8 lg:py-12">
+                    Passionné par les nouvelles technologies, je consacre une grande partie de mon temps libre à coder, apprendre et créer. J'aime me lancer dans de nouveaux projets web, de l'idée à la réalisation. En parallèle, je suis avide d'apprentissage, que ce soit à travers des cours en ligne, des forums ou même en sollicitant l'aide de Chat GPT parfois. Les idées de création fusent et je m'en donne à cœur joie pour les concrétiser, découvrant ainsi de nouvelles techniques et mettant en pratique mon imagination. En dehors de cela, je me détends en regardant des vidéos, que ce soit sur YouTube, des films, des séries ou des animés. Ma passion pour les jeux vidéo m'amène souvent à rejoindre des amis sur Discord pour des parties animées. Voilà, c'est moi en un mot : passionné.
+                </p>
+            </div>
 
+        </section>
 
+        <section class="comp">
+            <h2>
+                Mes compétences
+            </h2>
+
+            <div>
+                <SkillCard icon="tabler:palette" :iconColor="iconColor" text="Créatif" />
+
+            </div>
         </section>
         
     </div>
@@ -57,6 +79,8 @@
 
 //set icon default color
 const iconColor = '#2194FF';
+
+
 
 </script>
 
