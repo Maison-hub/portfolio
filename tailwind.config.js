@@ -25,8 +25,8 @@ export default {
       },
       borderRadius: {
         huge: '28px',
-        projectCard: '22px', // ⚠️ si on modifie cette valeur ne pas oublier de modifier borderRadius.imgProject
-        imgProject: '10px', // est egal a borderRadius.projectCard - padding.projectCard
+        projectCard: '32px', // ⚠️ si on modifie cette valeur ne pas oublier de modifier borderRadius.imgProject
+        imgProject: '20px', // est egal a borderRadius.projectCard - padding.projectCard
       },
       padding: {
         projectCard: '12px' // ⚠️ si on modifie cette valeur ne pas oublier de modifier borderRadius.imgProject

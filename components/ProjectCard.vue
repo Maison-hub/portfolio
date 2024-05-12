@@ -4,7 +4,7 @@ defineProps<{
     date : string,
     title : string,
     description : string,
-    tags : string[],
+    tags : Array<string>,
     img : string | undefined
 }>()
 </script>
