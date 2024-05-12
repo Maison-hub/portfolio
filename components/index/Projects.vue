@@ -9,7 +9,7 @@
 
         <div class="flex flex-row gap-4 overflow-x-auto" id="fetchProject">
             <ContentList path="/projects" v-slot="{ list }">
-                    <NuxtLink :to="project._path" v-for="project in list" :key="project._path">
+                    <NuxtLink :to="project._path" v-for="project in list" :key="project._path" id="realProject">
                         <ProjectCard :date="project.date" :title="project.title ?? ''" :description="project.description" :tags="project.tags" :img="project.img" />
                     </NuxtLink>
             </ContentList>
