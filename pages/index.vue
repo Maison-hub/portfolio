@@ -22,7 +22,7 @@
         </section>
         <IndexHScroll :comp="['Développement Front', 'UX Design', 'SEO', 'Illustration', 'UI Design', 'Développement Back', 'Gestion de projet', 'Photographie']" />
         <section class="flex flex-row items-center justify-center w-full bg-red-500 px-4 py-[10vh]" >  
-            <div class="md:text-5xl sm:text-3xl text-xl font-semibold lg:w-10/12 w-9/12 relative z-10 after:content-[''] after:absolute after:bg-star after:top-0 after:left-0 after:w-[8vw] after:h-[8vw] after:bg-cover after:bg-no-repeat after:translate-y-[-55%] after:translate-x-[-55%] after:z-[-1]">
+            <div class="md:text-5xl sm:text-3xl text-xl font-semibold lg:w-10/12 w-9/12 relative z-10 after:content-[''] after:absolute after:bg-star after:top-0 after:left-0 after:w-[8vw] after:h-[8vw] after:bg-cover after:bg-no-repeat after:translate-y-[-55%] after:translate-x-[-55%] after:z-[-1] text-justify">
                 Enthousiaste du web et animé par un esprit créatif, je suis curieux et désireux de relever de nouveaux challenges. Je suis étudiant en BUT MMI et spécialisé dans le développement web. Déterminé à créer de meilleures expériences en ligne en alliant ma créativité et mes compétences techniques, j’ai pour objectif de devenir développeur web.
             </div>
 
@@ -67,13 +67,21 @@
             <h2 class="text-2xl font-bold mb-8 text-center">
                 Mes compétences
             </h2>
+            <div class="flex flex-col items-center gap-6 mb-8">
+                <div class="font-semibold text-lg">
+                    Full-stack
+                </div>
+                <div class="flex flex-row gap-4 w-[50%] flex-wrap justify-center">
+                    <SkillCard icon="skill-icons:nuxtjs-dark" :iconColor="iconColor" text="Nuxt" />
+                    <SkillCard icon="devicon:livewire" :iconColor="iconColor" text="Livewire" />
 
+                </div>
+            </div>
             <div class="flex flex-col items-center gap-6 mb-8">
                 <div class="font-semibold text-lg">
                     Front-end
                 </div>
                 <div class="flex flex-row gap-4 w-[50%] flex-wrap justify-center">
-                    <SkillCard icon="skill-icons:nuxtjs-dark" :iconColor="iconColor" text="Nuxt" />
                     <SkillCard icon="skill-icons:tailwindcss-dark" :iconColor="iconColor" text="Tailwind" />
                     <SkillCard icon="skill-icons:alpinejs-dark" :iconColor="iconColor" text="Alpine" />
                     <SkillCard icon="skill-icons:htmx-dark" :iconColor="iconColor" text="Htmx" />

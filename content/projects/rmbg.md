@@ -1,7 +1,7 @@
 ---
 title: "Background remover"
 description: "Une simple application web qui permet de supprimer le fond d une image selectioné basé sur l IA"
-date: "2024"
+date: "2024-05-15"
 img: "/img/projects/rmbg/thumbnail.png"
 tags: ["front-end", "design", "Next js"] 
 ---

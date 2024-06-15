@@ -1,7 +1,8 @@
 ---
 title: "Bot Lane"
 description: "Bot Lane est un projet réalisé en binôme lors de mon année de première au lycée. Ce projet consistait en la création d'un bot Discord, ainsi que d'un site web pour le présenter. Le bot que nous avons créé avait pour but d'automatiser certaines taches sur le serveur Discord auquel il était associé, telles que la modération des messages, il permettait également de jouer à de petits jeux ou créer des équipes aléatoires par exemple."
-date: "2024"
+year: "2021"
+date: "2021-05-01"
 img: "/img/projects/botlane/thumbnail.png"
 tags: ["front-end", "Python"] 
 ---
@@ -17,7 +18,7 @@ Background Remover est une application web innovante qui utilise l'intelligence 
 ## Technologies utilisées
 
 - **Next.js** : Un framework JavaScript pour le développement d'applications web côté serveur et côté client.
-- **Intelligence Artificielle** : Utilisation de l'apprentissage automatique pour la suppression précise du fond des images.
+- **Intelligence Artificielle**  : Utilisation de l'apprentissage automatique pour la suppression précise du fond des images.
 
 ## Conclusion
 
