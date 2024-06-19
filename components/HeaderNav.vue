@@ -1,3 +1,15 @@
+<script setup lang="ts">
+    import { useMenuStore } from '@/stores/menu'
+    import { computed } from 'vue'
+    
+    const store = useMenuStore()
+
+    function openMenu(){
+        store.openMenu()
+    }
+
+</script>
+
 <template>
 
     <div class="flex w-full justify-between">
@@ -17,9 +29,9 @@
         <div class="flex flex-col items-end">
             <div class="flex flex-row items-start">
                 <div class="inverted l"></div>
-                <NuxtLink to="/">
+                <button @click="openMenu">
                     <div class="px-6 py-2 bg-background rounded-bl-2xl text-xl font-semibold">Menu</div>
-                </NuxtLink>
+                </button>
                 
             </div>
             <div class="inverted l"></div>
