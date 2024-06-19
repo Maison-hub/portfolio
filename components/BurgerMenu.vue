@@ -7,13 +7,23 @@
 
     const isOpen = computed(() => store.isOpen)
 
+    function handleClickOutside() {
+        console.log('click outside')
+        if (store.isOpen) {
+            console.log('close menu')
+            store.closeMenu()
+        }
+        else {
+            return
+        }
+    }
     
 
 </script>
 
 <template>
     <Transition name="slide-fade">
-        <div v-if="isOpen" class="fixed h-screen z-[999] bg-background right-0 top-0 bg- w-[40vw] min-w-80">
+        <div v-if="isOpen" class="fixed h-screen z-[999] bg-background right-0 top-0 bg- w-[40vw] min-w-80" v-click-outside="handleClickOutside">
             <nav class="burger-menu">
                 <div class="w-full flex flex-row justify-end p-4">
                     <button @click="store.closeMenu" class="p-4">

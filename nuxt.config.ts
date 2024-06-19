@@ -20,6 +20,10 @@ export default defineNuxtConfig({
       ]
     },
   },
+
+  plugins: [
+    '~/plugins/directive.client.ts',
+  ],
   modules: [
     "@nuxt/content",
     'nuxt-icon',
