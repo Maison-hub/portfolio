@@ -2,7 +2,7 @@
     <div class="relative overflow-y-hidden overflow-x-clip">
         <section class="p-14 h-[85vh]" >
 
-
+            <BurgerMenu />
 
             <div class="p-14 bg-mainBg bg-cover w-full h-full rounded-huge flex flex-col justify-center items-start gap-8 relative">
                 <HeaderNav class="absolute top-0 left-0" />
