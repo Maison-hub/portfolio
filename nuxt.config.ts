@@ -28,5 +28,13 @@ export default defineNuxtConfig({
     "@nuxt/content",
     'nuxt-icon',
     '@pinia/nuxt',
-  ]
+    '@hypernym/nuxt-gsap'
+  ],
+  gsap: {
+    composables: true,
+    provide: false,
+    extraPlugins: {
+      scrollTrigger: true
+    },
+  },
 })

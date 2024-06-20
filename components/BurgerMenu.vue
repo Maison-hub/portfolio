@@ -23,14 +23,14 @@
 
 <template>
     <Transition name="slide-fade">
-        <div v-if="isOpen" class="fixed h-screen z-[999] bg-background right-0 top-0 bg- w-[40vw] min-w-80" v-click-outside="handleClickOutside">
+        <div v-if="isOpen" class="fixed h-screen z-[999] bg-background right-0 top-0 w-[40vw] min-w-80" >
             <nav class="burger-menu">
                 <div class="w-full flex flex-row justify-end p-4">
                     <button @click="store.closeMenu" class="p-4">
                         <Icon name="tabler:x" size="44" class="text-gray-600 hover:text-aqua transition-colors" />
                     </button>
                 </div>
-                <div class="flex flex-col gap-6 p-6">
+                <div class="flex flex-col gap-6 px-[6vw] py-4">
                     <MenuBurgerMenuLink text="Home" :delay="1" />
                     <MenuBurgerMenuLink text="About" :delay="2"/>
                     <MenuBurgerMenuLink text="Services" :delay="3"/>
