@@ -130,6 +130,11 @@
 </template>
 
 <script lang="ts" setup>
+import SplitType from 'split-type'
+
+
+
+
 
 //set icon default color
 const iconColor = '#2194FF';
@@ -139,6 +144,19 @@ const animateValue = ref(0)
 
 //rotate cross on scroll
 onMounted(() => {
+    const text = SplitType.create('#starAfter')
+
+    let tl = useGsap.timeline({
+        scrollTrigger: {
+            trigger: '#starAfter',
+            start: 'top 80%',
+            end: 'bottom 50%',
+            scrub: true,
+            markers: false,
+        },
+    });
+    tl.from(text.words, {opacity: 0.2, stagger: 0.1})
+
     useGsap.to(animateValue, {
         scrollTrigger: {
             trigger: '#starAfter',

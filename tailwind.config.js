@@ -12,7 +12,7 @@ export default {
     extend: {
       backgroundImage: {
         mainBg: "url('~/assets/images/background/bg.png')",
-        star: "url('~/assets/images/star.svg')",
+        star: "url('~/assets/icons/star.svg')",
       },
       animation: {
         'loop-scroll': 'loop-scroll 15s linear infinite',

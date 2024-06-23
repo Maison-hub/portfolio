@@ -34,7 +34,15 @@ export default defineNuxtConfig({
     composables: true,
     provide: false,
     extraPlugins: {
-      scrollTrigger: true
+      scrollTrigger: true,
     },
   },
+  icon: {
+    customCollections: [
+      {
+        prefix: 'my-icon',
+        dir: './assets/icons'
+      },
+    ],
+  }
 })
