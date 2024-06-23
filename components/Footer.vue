@@ -1,20 +1,20 @@
 <script setup>
 
-onMounted(() => {
-    useGsap.from('#mail', {
-        x: -100,
-        opacity: 0,
-        duration: 1,
-        delay: 0.5,
-        scrollTrigger: {
-            trigger: '#mail',
-            start: 'top bottom',
-            end: 'bottom 80%',
-            scrub: 1,
-            markers: true
-        }
-    })
-})
+// onMounted(() => {
+//     useGsap.from('#mail', {
+//         x: -100,
+//         opacity: 0,
+//         duration: 1,
+//         delay: 0.5,
+//         scrollTrigger: {
+//             trigger: '#mail',
+//             start: 'top bottom',
+//             end: 'bottom 80%',
+//             scrub: 1,
+//             markers: true
+//         }
+//     })
+// })
 
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="relative overflow-y-hidden overflow-x-clip">
+    <div class="relative overflow-y-hidden">
         <section class="p-14 h-[85vh]" >
 
             <BurgerMenu />
@@ -22,7 +22,7 @@
         </section>
         <IndexHScroll :comp="['Développement Front', 'UX Design', 'SEO', 'Illustration', 'UI Design', 'Développement Back', 'Gestion de projet', 'Photographie']" />
         <section class="flex flex-row items-center justify-center w-full bg-red-500 px-4 py-[10vh]" >  
-            <div class="md:text-5xl sm:text-3xl text-xl font-semibold lg:w-10/12 w-9/12 relative z-10 after:content-[''] after:absolute after:bg-star after:top-0 after:left-0 after:w-[8vw] after:h-[8vw] after:bg-cover after:bg-no-repeat after:translate-y-[-55%] after:translate-x-[-55%] after:z-[-1] text-justify">
+            <div class="md:text-5xl sm:text-3xl text-xl font-semibold lg:w-10/12 w-9/12 relative z-10 after:content-[''] after:absolute after:bg-star after:top-0 after:left-0 after:w-[8vw] after:h-[8vw] after:bg-cover after:bg-no-repeat after:z-[-1] text-justify" id="starAfter" :style="{ '--animate': animateValue }">
                 Enthousiaste du web et animé par un esprit créatif, je suis curieux et désireux de relever de nouveaux challenges. Je suis étudiant en BUT MMI et spécialisé dans le développement web. Déterminé à créer de meilleures expériences en ligne en alliant ma créativité et mes compétences techniques, j’ai pour objectif de devenir développeur web.
             </div>
 
@@ -39,7 +39,7 @@
 
         </section>
 
-        <section id="projects" class="mb-16">
+        <section id="projects">
 
             <IndexProjects />
 
@@ -134,9 +134,29 @@
 //set icon default color
 const iconColor = '#2194FF';
 
+const animateValue = ref(0)
+
+
+//rotate cross on scroll
+onMounted(() => {
+    useGsap.to(animateValue, {
+        scrollTrigger: {
+            trigger: '#starAfter',
+            start: 'top bottom',
+            end: 'bottom top',
+            scrub: 1,
+            markers: false
+        },
+        duration: 1,
+        value: 220,
+    })
+})
 
 
 </script>
 
 <style>
+#starAfter::after {
+    transform: translate(-55%, -55%) rotate(calc(var(--animate) * 1deg));
+}
 </style>
