@@ -28,7 +28,8 @@ export default defineNuxtConfig({
     "@nuxt/content",
     'nuxt-icon',
     '@pinia/nuxt',
-    '@hypernym/nuxt-gsap'
+    '@hypernym/nuxt-gsap',
+    "@nuxt/image"
   ],
   gsap: {
     composables: true,
@@ -44,5 +45,8 @@ export default defineNuxtConfig({
         dir: './assets/icons'
       },
     ],
+  },
+  image:{
+    quality: 80,
   }
 })
