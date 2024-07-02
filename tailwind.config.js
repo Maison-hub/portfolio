@@ -7,6 +7,7 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "./content/**/*.md",
   ],
   theme: {
     extend: {
@@ -30,7 +31,12 @@ export default {
       },
       padding: {
         projectCard: '12px' // ⚠️ si on modifie cette valeur ne pas oublier de modifier borderRadius.imgProject
-      }
+      },
+      objectPosition: {
+        top: 'top',
+        center: 'center',
+        bottom: 'bottom',
+      },
     },
     colors: {
       red: '#FF0000',

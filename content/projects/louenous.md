@@ -24,7 +24,13 @@ Nous avons donc construit un “mood board” donnant l’idée du style génér
 Le design système établi ainsi toutes les couleurs. De plus, j’ai défini la taille des titres, les polices d’écriture, les espacements entre  les éléments, ainsi que toutes les valeurs importantes pour l’uniformisation du design.
 Une fois les fondations en place et correctement variabilisées avec les outils intégrés à Figma, le travail de conception d’interface peut commencer.
 
-::img-gallery{:images ='["/img/projects/louenous/img/design-system.png"]'}
+::img-gallery
+---
+images:
+    - src: "/img/projects/louenous/img/design-system.png"
+      description: "Le design System de Loue Nous"
+      bgpos: "object-top"
+---
 ::
 
 ## Réalisation
@@ -32,6 +38,18 @@ Une fois les fondations en place et correctement variabilisées avec les outils 
 Pour la conception d’interface, je m’inspire de ce qui existe déjà (il ne faut pas réinventer la roue) et je l’adapte au projet et j’y ajoute évidemment ma touche personnelle.
 J’ai beaucoup travaillé par blocs en utilisant l’auto layout de Figma permettant une plus grande flexibilité dans la modification et dans l’adaptation aux tailles d’écrans. Il est important de garder en tête que le design permettra aux développeurs de construire l’interface sans prendre de choix sur l’apparence. Il faut donc garder à l’esprit que le design a pour but final d’être codé. Ma formation pluridisciplinaire alliant design et développement web me permet de connaitre les limitations techniques du développeur et donc de penser le design pour faciliter la réalisation et limiter la difficulté liée à la phase de programmation.
 Dans cette optique, j’ai réalisé une dizaine de pages dont l’accueil, le profile, l’ajout d’objet, les locations d’objet…
+
+::img-gallery
+---
+images:
+    - src: "/img/projects/louenous/img/profil.png"
+      description: "La page de gestion du profil"
+      bgpos: "object-top"
+    - src: "/img/projects/louenous/img/add.png"
+      description: "La page d'ajout d'objet"
+      bgpos: "object-top"
+---
+::
 
 ## Résultat
 
