@@ -14,3 +14,7 @@ h2{
 ul li{
     list-style-type:disc;
 }
+
+p{
+    text-align: justify;
+}

@@ -3,13 +3,22 @@ title: "Background remover"
 description: "Une simple application web qui permet de supprimer le fond d une image selectioné basé sur l IA"
 year: "2024"
 date: "2024-05-15"
-img: "/img/projects/rmbg/thumbnail.png"
-tags: ["front-end", "design", "Next js"] 
+cover: "/img/projects/rmbg/thumbnail.png"
+categories: ["front-end", "design", "Next js"] 
 ---
 
 Background Remover est une application web innovante qui utilise l'intelligence artificielle pour supprimer le fond des images. Développée avec Next.js, cette application offre une interface utilisateur intuitive et performante.
 
-::img-gallery{:images ='["/img/projects/rmbg/thumbnail.png", "/img/projects/rmbg/img/result.png"]'}
+::img-gallery
+---
+
+images:
+    - src: "/img/projects/rmbg/thumbnail.png"
+      bgpos: "object-center"
+    - src: "/img/projects/rmbg/img/result.png"
+      bgpos: "object-center"
+---
+
 ::
 
 ## Fonctionnalités

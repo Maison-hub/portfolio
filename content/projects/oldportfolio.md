@@ -3,8 +3,8 @@ title: "Ancien portfolio"
 description: "Bot Lane est un projet réalisé en binôme lors de mon année de première au lycée. Ce projet consistait en la création d'un bot Discord, ainsi que d'un site web pour le présenter. Le bot que nous avons créé avait pour but d'automatiser certaines taches sur le serveur Discord auquel il était associé, telles que la modération des messages, il permettait également de jouer à de petits jeux ou créer des équipes aléatoires par exemple."
 year: "2021"
 date: "2021-05-01"
-img: "/img/projects/botlane/thumbnail.png"
-tags: ["front-end", "Python"] 
+cover: "/img/projects/botlane/thumbnail.png"
+categories: ["front-end", "Python"] 
 ---
 
 Background Remover est une application web innovante qui utilise l'intelligence artificielle pour supprimer le fond des images. Développée avec Next.js, cette application offre une interface utilisateur intuitive et performante.
