@@ -18,7 +18,7 @@ defineProps<{
 </script>
 
 <template>
-    <div class="flex flex-row gap-12 mb-8 py-4">
+    <div class="flex flex-row justify-center gap-12 mb-8 py-4 ">
         <div v-for="(image, index) in images"
             :key="index"
             class=" grow h-[50vh] bg-center rounded-huge relative flex flex-col items-start gap-2">
@@ -29,7 +29,6 @@ defineProps<{
                 fit="cover" />
             <p class="text-gray-500 italic text-sm">{{ image.description }}</p>
         </div>
-        <!-- <img v-for="(image, index) in images" :key="index" :src="image" alt="Image galerie" class="rounded-huge object-cover grow"> -->
     </div>
 </template>
 

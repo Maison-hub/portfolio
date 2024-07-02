@@ -26,11 +26,13 @@ Une fois les fondations en place et correctement variabilisées avec les outils 
 
 ::img-gallery
 ---
+
 images:
     - src: "/img/projects/louenous/img/design-system.png"
       description: "Le design System de Loue Nous"
       bgpos: "object-top"
 ---
+
 ::
 
 ## Réalisation
@@ -41,6 +43,7 @@ Dans cette optique, j’ai réalisé une dizaine de pages dont l’accueil, le p
 
 ::img-gallery
 ---
+
 images:
     - src: "/img/projects/louenous/img/profil.png"
       description: "La page de gestion du profil"
@@ -49,6 +52,7 @@ images:
       description: "La page d'ajout d'objet"
       bgpos: "object-top"
 ---
+
 ::
 
 ## Résultat

@@ -17,13 +17,13 @@ import '~/assets/css/project.css'
     </header>
 
     <div class="flex flex-col gap-8 px-14 pb-14 items-center ">
-      <div class="w-2/4 flex flex-col justify-center">
+      <div class="flex flex-col justify-center">
         <span class="sub-title text-center">{{ doc.year }}</span>
         <p class="text-center">
           {{ doc.description }}
         </p>
       </div>
-      <div class="w-2/4">
+      <div class="w-2/4 aspect-video">
         <img :src="doc.cover"
           alt="project"
           class="h-full w-full object-cover rounded-imgProject" />
@@ -32,8 +32,10 @@ import '~/assets/css/project.css'
       <div class="separator"></div>
     </div>
 
-    <main class="px-14">
-      <ContentRenderer :value="doc" />
+    <main class="px-14 flex justify-center w-full">
+      <div class="max-w-[1400px]">
+        <ContentRenderer :value="doc" />
+      </div>
     </main>
   </ContentDoc>
 
