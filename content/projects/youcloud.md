@@ -24,7 +24,14 @@ L'objectif était de créer une application web permettant aux utilisateurs de s
 
 Le projet a été réalisé sur une durée de trois jours consécutifs. Les technologies utilisé était imposé par le sujet. J'ai donc decouvert le framewok Slim PHP qui m'as permis de rapidement décrire mes routes et de les lier à des fonctions. Coté front nous avons du utiliser Twig comme moteur de template qui a premis sur un temps très cours de pouvoir très rapidement afficher les informations stocké en base de données. Pour la 3D nous avons utilisé Three.js sur un projet Vite appart qui une fois "build" était intégré à notre projet Slim PHP.
 
-::img-gallery{:images ='["/img/projects/youcloud/img/dashboard.png", "/img/projects/youcloud/img/login.png"]'}
+::img-gallery
+---
+images:
+    - src: "/img/projects/youcloud/img/dashboard.png"
+      bgpos: "object-bottom"
+    - src: "/img/projects/youcloud/img/login.png"
+      bgpos: "object-top"
+---
 ::
 
 ## Apprentissage

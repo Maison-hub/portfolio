@@ -17,21 +17,20 @@ defineProps<{
             default: 'w-[20vw]'
         }
     }
-    text: string,
-    textPosition: {
-        type: String,
-        default: 'left'
-    }
+    textPosition: 'left' | 'right'
 }>()
+
 </script>
 
 <template>
 
-    <div class="flex flex-row flex-row-reverse items-center justify-center"
-        :class="textPosition === 'left' ? 'flex-row' : 'flex-row-reverse'">
-        <p>{{ text }}</p>
+    <div class="flex items-start justify-center md:gap-8 relative mb-8"
+        :class="textPosition === 'left' ? 'flex-col md:flex-row' : 'flex-col-reverse md:flex-row-reverse'">
+        <p class="w-full md:w-2/4">
+            <slot />
+        </p>
         <NuxtImg :src="image.src"
-            class="w-full h-full object-cover rounded-imgProject"
+            class="object-cover rounded-imgProject w-full md:w-2/4 min-w-[100px]"
             :class="image.bgpos"
             :quality="image.quality"
             fit="cover" />
