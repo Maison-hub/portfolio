@@ -25,7 +25,6 @@ onMounted(() => {
         },
         x: -ammountToScroll,
         duration: 5,
-        value: 220,
     })
 })
 

@@ -12,6 +12,7 @@ import { useSmoothScroll } from '~/composable/useSmoothScroll';
 
 <template>
     <div>
+        <BurgerMenu />
         <slot />
     </div>
 </template>

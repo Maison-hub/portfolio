@@ -5,7 +5,6 @@ import '~/assets/css/project.css'
 </script>
 
 <template>
-  <BurgerMenu />
   <ContentDoc v-slot="{ doc }">
     <header>
       <div class="p-14">

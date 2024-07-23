@@ -5,10 +5,7 @@ const query: QueryBuilderParams = { path: '/projects', sort: [{ date: -1 }] }
 
 
 </script>
-
-
 <template>
-    <BurgerMenu />
     <header>
         <div class="p-14">
             <div class="bg-mainBg bg-cover w-full h-full rounded-huge py-24 flex items-center justify-center relative">
@@ -20,19 +17,19 @@ const query: QueryBuilderParams = { path: '/projects', sort: [{ date: -1 }] }
 
 
     <div class="flex flex-row justify-center gap-4 flex-wrap p-14"
-            id="fetchProject">
-            <ContentList :query="query"
-                v-slot="{ list }">
-                <NuxtLink v-for="project in list"
-                    :key="project._path"
-                    id="realProject"
-                    :to="project._path">
-                    <ProjectCard :date="project.year"
-                        :title="project.title ?? ''"
-                        :description="project.description"
-                        :tags="project.categories"
-                        :img="project.cover" />
-                </NuxtLink>
-            </ContentList>
-        </div>
+        id="fetchProject">
+        <ContentList :query="query"
+            v-slot="{ list }">
+            <NuxtLink v-for="project in list"
+                :key="project._path"
+                id="realProject"
+                :to="project._path">
+                <ProjectCard :date="project.year"
+                    :title="project.title ?? ''"
+                    :description="project.description"
+                    :tags="project.categories"
+                    :img="project.cover" />
+            </NuxtLink>
+        </ContentList>
+    </div>
 </template>

@@ -37,10 +37,10 @@ function handleClickOutside() {
                 <div class="flex flex-col gap-6 px-[6vw] py-4">
                     <MenuBurgerMenuLink text="Home"
                         :delay="1"
-                        route="#" />
-                    <MenuBurgerMenuLink text="About"
+                        route="/" />
+                    <MenuBurgerMenuLink text="Moi"
                         :delay="2"
-                        route="#" />
+                        route="/me" />
                     <MenuBurgerMenuLink text="Projets"
                         :delay="3"
                         route="/projects" />
