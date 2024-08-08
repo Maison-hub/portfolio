@@ -15,37 +15,37 @@
 //         }
 //     })
 // })
-
 </script>
 
 <template>
-    <div class="p-14">
-        <div class="bg-mainBg bg-cover w-full h-full rounded-huge py-24 flex flex-col items-center justify-center">
-            <span class="text-white title">Une Questions ?</span>
-            <span class="text-white sub-title">Contactez moi</span>
+    <div class="">
+        <div class="bg-mainBg bg-cover w-full rounded-t-[55px]  py-16 px-12 flex flex-col items-center justify-between gap-6 ">
+            <div class="flex w-full justify-center">
+                <a href="mailto:hello@antoinerubeo.me">
+                    <span class="text-4xl font-bold uppercase transition-all text-white hover:text-aqua " id="mail">
+                        HELLO@antoinerubeo.ME
+                    </span>
+                </a>
+                </div>
+                <div class="flex w-full justify-center">
+                    <a href="tel:0602157522">
+                        <span class="text-4xl font-bold capitalize transition-all  text-white hover:text-aqua ">
+                            06 02 15 75 22    
+                        </span>
+                    </a>
+                </div>
 
+                <div>
+                    <a href="https://www.linkedin.com/in/antoine-rubeo/" target="_blank">
+                        <Icon name="mdi:linkedin" fill="none" class="text-4xl text-white hover:text-aqua title"/>
+                    </a>
+                    <a href="https://github.com/Maison-hub" target="_blank">
+                        <Icon name="mdi:github" fill="none" class="text-4xl text-white hover:text-aqua title"/>
+                    </a>
+                </div>
+
+            <p class="text-center text-xs">Website made with ❤️ by me</p>
         </div>
-
-
-    <div class="flex w-full justify-start">
-        <span class="sub-title uppercase text-surface" id="mail">
-            HELLO@antoinerubeo.ME
-        </span>
     </div>
-    <div class="flex w-full justify-end">
-        <span class="sub-title capitalize text-surface">
-            06 02 15 75 22    
-        </span>
-    </div>
-
-    <div>
-        <Icon name="mdi:linkedin" fill="none" class="text-4xl text-surface title"/>
-        <Icon name="mdi:github" fill="none" class="text-4xl text-surface title"/>
-    </div>
-
-    <p class="text-center text-xs">Website made with ❤️ by maison-hub</p>
-
-    </div>
-
 </template>
 

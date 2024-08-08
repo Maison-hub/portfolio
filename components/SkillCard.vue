@@ -9,15 +9,15 @@ defineProps<{
 </script>
 
 <template>
-    <div class="inline-flex flex-row gap-4 items-center border border-surface rounded-xl p-2">
+    <div class="inline-flex flex-row gap-4 items-center bg-surface rounded-xl">
 
         <div>
-            <Icon :name="icon" color="#2EFAFA" fill="none" class="text-4xl text-aqua"/>
+            <Icon :name="icon" color="#DBE8FE15" fill="none" class="text-6xl text-aqua"/>
         </div>
 
-        <div>
+        <!-- <div>
             <span class="text-md">{{ text }}</span>
-        </div>
+        </div> -->
 
     </div>
 

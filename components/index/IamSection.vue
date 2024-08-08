@@ -59,7 +59,7 @@ onMounted(() => {
         <div>
             <p class="px-[12vw] py-4 md:py-8 lg:py-12 text-justify">
                 Passionné par les nouvelles technologies, je consacre une grande partie de mon temps libre à coder,
-                apprendre et créer. J'aime me lancer dans de nouveaux projets web, de l'idée à la réalisation. En
+                apprendre et créer. J'aime me lancer dans de nouveaux projets, de l'idée à la réalisation. En
                 parallèle, je suis avide d'apprentissage, que ce soit à travers des cours en ligne, des forums ou
                 même en sollicitant l'aide de Chat GPT parfois. Les idées de création fusent et je m'en donne à cœur
                 joie pour les concrétiser, découvrant ainsi de nouvelles techniques et mettant en pratique mon

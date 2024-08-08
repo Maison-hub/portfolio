@@ -71,31 +71,34 @@ onMounted(() => {
                 id="me1"
                 style="transform: translateX(-50%) translateY(15%) rotate(-8deg)" />
 
-            <NuxtImg src="/img/me/me2.jpg"
-                class="object-cover rounded-imgProject w-[30%] h-[30%]"
+            <NuxtImg src="/img/me/me4.jpg"
+                class="object-cover rounded-imgProject w-[40%] h-[20%]"
                 fit="cover"
                 id="me2"
                 style="transform: translateX(50%) translateY(15%) rotate(8deg);" />
+
         </div>
 
         <section class="flex flex-row items-center justify-center w-full bg-red-500 px-4 py-[10vh]">
-            <div class="md:text-xl sm:text-l text-base font-semibold lg:w-10/12 w-9/12 relative z-10 text-justify ">
-                étudiant en BUT MMI, passionné par les nouvelles technologies depuis mon plus jeune âge. Mon
-                parcours a débuté avec Scratch en classe de 3ème, suivi d'un stage d'une semaine chez TCM, une
+            <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+                Étudiant en BUT MMI, passionné par les nouvelles technologies depuis mon plus jeune âge. Mon
+                parcours a débuté avec Scratch en classe de 3ème, suivi d'un stage d'une semaine chez The Coding
+                Machine, une
                 agence web parisienne. Au lycée, la spécialité NSI m'a introduit au langage Python, tandis que j'ai
                 développé des compétences en photographie, montage vidéo et création de sites web en parallèle. Le
                 BUT MMI s'est imposé comme une opportunité idéale, combinant création numérique, communication et
-                développement web. Au semestre 4, j'ai choisi de me spécialiser dans le développement web, explorant
+                développement web. Au quatrième semestre, j'ai choisi de me spécialiser dans le développement web,
+                explorant
                 le back-end, le front-end et le développement d'applications mobiles. Mes compétences incluent HTML,
                 CSS, JavaScript, PHP, Python, SQL, WordPress, Figma, Illustrator, SEO, After Effects et la
                 photographie. La programmation m'a conduit à m'intéresser à l'UX et l'UI design, cherchant à allier
                 esthétique, efficacité et rapidité dans mes projets web. J'explore également des frameworks tels
                 qu'Express, Django et Vue.js, car pour moi, l'informatique est une passion qui m'incite à apprendre
                 continuellement.
-            </div>
-
-
+            </p>
         </section>
+
+        <MeExperiencePro />
 
         <div class="flex flex-row w-full justify-center gap-4 py-8"
             id="imgrow2">
@@ -105,17 +108,24 @@ onMounted(() => {
                 id="me3"
                 style="transform: translateX(-50%) translateY(15%) rotate(-8deg)" />
 
-            <NuxtImg src="/img/me/me4.jpg"
-                class="object-cover rounded-imgProject w-[35%] h-[15%]"
+            <NuxtImg src="/img/me/me2.jpg"
+                class="object-cover rounded-imgProject w-[25%] h-[35%]"
                 fit="cover"
                 id="me4"
                 style="transform: translateX(50%) translateY(15%) rotate(8deg);" />
-
         </div>
 
-        <Footer />
+        <section class="flex items-center justify-center p-12 h-[30vh]">
+            <div class="explode-btn p-1  bg-surface rounded-[12px]">
+                <button class="p-3 rounded-[8px]">
+                    En savoir plus sur moi
+                </button>
+            </div>
+        </section>
+
 
     </div>
+    <Footer />
 </template>
 
 <style scoped></style>

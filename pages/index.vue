@@ -70,15 +70,26 @@
 
         <IndexIamSection />
 
-        <section class="comp mb-16">
-            <h2 class="text-2xl font-bold mb-8 text-center">
-                Mes compétences
-            </h2>
-            <div class="flex flex-col items-center gap-6 mb-8">
-                <div class="font-semibold text-lg">
-                    Full-stack
+        <section class="comp mb-16 p-14">
+            <div class="flex flex-row items-center justify-center w-full">
+                <h2 class="text-4xl font-bold mb-14  text-center">
+                    Compétences
+                </h2>
+            </div>
+
+            <div class="flex flex-row items-center gap-6 mb-8 border-b-surface border-b-2">
+
+                <div class="flex flex-col items-start gap-4 ">
+                    <div class="font-semibold text-4xl">
+                        Développement <strong>Full-stack</strong>
+                    </div>
+                    <p class="text-sm text-gray-500  ">
+                        Ma passion pour le dévellopement web me pousse a vouloir toucher a tout, du front-end au back-end en passant par le design.
+                        A travers le devellopement full-stack, je cherche a allier esthétique, efficacité et rapidité dans mes projets web.
+                    </p>
                 </div>
-                <div class="flex flex-row gap-4 w-[50%] flex-wrap justify-center">
+
+                <div class="flex flex-row gap-4 flex-wrap justify-center w-full">
                     <SkillCard icon="skill-icons:nuxtjs-dark"
                         :iconColor="iconColor"
                         text="Nuxt" />
@@ -88,69 +99,91 @@
 
                 </div>
             </div>
-            <div class="flex flex-col items-center gap-6 mb-8">
-                <div class="font-semibold text-lg">
-                    Front-end
-                </div>
-                <div class="flex flex-row gap-4 w-[50%] flex-wrap justify-center">
-                    <SkillCard icon="skill-icons:tailwindcss-dark"
-                        :iconColor="iconColor"
-                        text="Tailwind" />
-                    <SkillCard icon="skill-icons:alpinejs-dark"
-                        :iconColor="iconColor"
-                        text="Alpine" />
-                    <SkillCard icon="skill-icons:htmx-dark"
-                        :iconColor="iconColor"
-                        text="Htmx" />
-                    <SkillCard icon="skill-icons:flutter-dark"
-                        :iconColor="iconColor"
-                        text="Flutter" />
-                    <SkillCard icon="skill-icons:threejs-dark"
-                        :iconColor="iconColor"
-                        text="Three js" />
-                </div>
+
+        <div class="flex flex-row items-center gap-6 mb-8 border-b-surface border-b-2">
+
+        <div class="flex flex-col items-start gap-4 ">
+            <div class="font-semibold text-4xl">
+                Développement <strong>Front-end</strong>
             </div>
-            <div class="flex flex-col items-center gap-6 mb-8">
-                <div class="font-semibold text-lg">
-                    Back-end
-                </div>
-                <div class="flex flex-row gap-4 w-[50%] flex-wrap justify-center">
-                    <SkillCard icon="skill-icons:nodejs-dark"
-                        :iconColor="iconColor"
-                        text="Node" />
-                    <SkillCard icon="skill-icons:expressjs-dark"
-                        :iconColor="iconColor"
-                        text="Express" />
-                    <SkillCard icon="skill-icons:php-dark"
-                        :iconColor="iconColor"
-                        text="PHP" />
-                    <SkillCard icon="skill-icons:python-dark"
-                        :iconColor="iconColor"
-                        text="Python" />
-                    <SkillCard icon="skill-icons:mysql-dark"
-                        :iconColor="iconColor"
-                        text="MySQL" />
-                </div>
+            <p class="text-sm text-gray-500  ">
+                Le Front est la creation de l'interface. Cela me permet de m'exprimer a travers le design et l'interactivité.
+                A mi-chemin entre l'art et la technique, le front-end est un domaine qui me passionne.
+            </p>
+        </div>
+
+        <div class="flex flex-row gap-4 flex-wrap justify-center w-full">
+            <SkillCard icon="skill-icons:tailwindcss-dark"
+                :iconColor="iconColor"
+                text="Tailwind" />
+            <SkillCard icon="skill-icons:alpinejs-dark"
+                :iconColor="iconColor"
+                text="Alpine" />
+            <SkillCard icon="skill-icons:htmx-dark"
+                :iconColor="iconColor"
+                text="Htmx" />
+            <SkillCard icon="skill-icons:flutter-dark"
+                :iconColor="iconColor"
+                text="Flutter" />
+            <SkillCard icon="skill-icons:threejs-dark"
+                :iconColor="iconColor"
+                text="Three js" />
             </div>
-            <div class="flex flex-col items-center gap-6 mb-8 ">
-                <div class="font-semibold text-lg">
-                    Design
-                </div>
-                <div class="flex flex-row gap-4 w-[50%] flex-wrap justify-center">
-                    <SkillCard icon="skill-icons:figma-dark"
-                        :iconColor="iconColor"
-                        text="Figma" />
-                    <SkillCard icon="skill-icons:aftereffects"
-                        :iconColor="iconColor"
-                        text="Adobe XD" />
-                    <SkillCard icon="skill-icons:photoshop"
-                        :iconColor="iconColor"
-                        text="Photoshop" />
-                    <SkillCard icon="skill-icons:illustrator"
-                        :iconColor="iconColor"
-                        text="Illustrator" />
-                </div>
+        </div>
+
+    <div class="flex flex-row items-center gap-6 mb-8 border-b-surface border-b-2">
+        <div class="flex flex-col items-start gap-4 ">
+            <div class="font-semibold text-4xl">
+                Développement <strong>Back-end</strong>
             </div>
+            <p class="text-sm text-gray-500  ">
+                Le back-end est la partie invisible de l'iceberg. C'est la ou tout se passe, la ou les données sont traitées et stockées.
+                Le back-end est un domaine complexe et passionnant qui me pousse a toujours apprendre plus.
+            </p>
+        </div>
+
+        <div class="flex flex-row gap-4 flex-wrap justify-center w-full">
+            <SkillCard icon="skill-icons:expressjs-dark"
+                :iconColor="iconColor"
+                text="Express" />
+            <SkillCard icon="skill-icons:php-dark"
+                :iconColor="iconColor"
+                text="PHP" />
+            <SkillCard icon="skill-icons:python-dark"
+                :iconColor="iconColor"
+                text="Python" />
+            <SkillCard icon="skill-icons:mysql-dark"
+                :iconColor="iconColor"
+                text="MySQL" />
+            </div>
+        </div>
+
+        <div class="flex flex-row items-center gap-6 mb-8 border-b-surface border-b-2">
+        <div class="flex flex-col items-start gap-4 ">
+            <div class="font-semibold text-4xl">
+                <strong>Design</strong>
+            </div>
+            <p class="text-sm text-gray-500  ">
+                Le back-end est la partie invisible de l'iceberg. C'est la ou tout se passe, la ou les données sont traitées et stockées.
+                Le back-end est un domaine complexe et passionnant qui me pousse a toujours apprendre plus.
+            </p>
+        </div>
+
+        <div class="flex flex-row gap-4 flex-wrap justify-center w-full">
+            <SkillCard icon="skill-icons:figma-dark"
+                :iconColor="iconColor"
+                text="Figma" />
+            <SkillCard icon="skill-icons:aftereffects"
+                :iconColor="iconColor"
+                text="Adobe XD" />
+            <SkillCard icon="skill-icons:photoshop"
+                :iconColor="iconColor"
+                text="Photoshop" />
+            <SkillCard icon="skill-icons:illustrator"
+                :iconColor="iconColor"
+                text="Illustrator" />
+            </div>
+        </div>
         </section>
 
         <section id="more"
