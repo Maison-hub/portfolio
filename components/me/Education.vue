@@ -19,14 +19,13 @@ onMounted(() => {
         });
     });
 
-
     // useGsap.to(".line", {
     //     scrollTrigger: {
-    //         trigger: "#experiencePro",
+    //         trigger: "#education",
     //         start: "top 80%",
     //         end: "bottom 80%",
     //         scrub: 0,
-    //         markers: false,
+    //         markers: true,
     //     },
     //     height: "75%",
     //     duration: 1,
@@ -38,14 +37,13 @@ onMounted(() => {
 
 <template>
     <section class="w-full">
-        <div class="w-full flex flex-row justify-center items-center gap-4">
-            <Icon name="tabler:building" fill="none" class="text-6xl"/>
-            <h2 class="font-bold text-4xl">Expériences professionels</h2>
-            <!-- <span class="iconify" data-icon="tabler:building"></span> -->
+        <div class="w-full flex justify-center items-center gap-4">
+            <Icon name="tabler:school" fill="none" class="text-6xl"/>
+            <h2 class="font-bold text-4xl">Education</h2>
 
         </div>
 
-        <div class="w-full my-14 relative" id="experiencePro">
+        <div class="w-full my-14 relative" id="education">
             <div class="line"></div>
             <MeRow title="Stage WorkAdventure"
                 date="Avril - Août 2024"

@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+const btnRefs = ref([]);
+
+
 onMounted(() => {
     useGsap.to("#me1", {
         scrollTrigger: {
@@ -48,6 +51,32 @@ onMounted(() => {
         transform: "translateX(1%) translateY(0%) rotate(0deg)", // L'état final de l'animation
         duration: 1,
     })
+
+    const line = useGsap.utils.toArray<HTMLElement>(".line");
+    line.forEach(line => {
+        useGsap.to(line, {
+        scrollTrigger: {
+            trigger: line.parentElement,
+            start: "top 70%",
+            end: "bottom 70%",
+            scrub: 0,
+            markers: false,
+        },
+        height: "75%",
+        duration: 1,
+    });
+    });
+
+    const glowingCorner: NodeListOf<HTMLElement> = document.querySelectorAll('.glowing-corner');
+    glowingCorner.forEach((el: HTMLElement, index) => {
+        el.onmousemove = (e) => {
+            const x = e.pageX - el.offsetLeft;
+            const y = e.pageY - el.offsetTop;
+            el.style.setProperty('--x', x + 'px');
+            el.style.setProperty('--y', y + 'px');
+        }
+    });
+
 });
 
 </script>
@@ -99,6 +128,24 @@ onMounted(() => {
         </section>
 
         <MeExperiencePro />
+        <MeEducation />
+
+        <section id="cv" class="w-full flex flex-row items-center justify-center gap-[20%]">
+            <a href="./cv/CV_Antoine_rubeo-lisa.pdf" target="_blank">
+                <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
+                    <span class="z-10 relative font-semibold uppercase text-xl">
+                        Mon cv 🇫🇷
+                    </span>
+                </div>
+            </a>
+
+            <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
+                    <span class="z-10 relative font-semibold uppercase text-xl">
+                        My english cv 🇬🇧
+                    </span>
+            </div>
+    
+        </section>
 
         <div class="flex flex-row w-full justify-center gap-4 py-8"
             id="imgrow2">
@@ -128,4 +175,39 @@ onMounted(() => {
     <Footer />
 </template>
 
-<style scoped></style>
+<style scoped>
+    .btn.glowing-corner{
+        overflow: hidden;
+    }
+
+    .btn.glowing-corner::before{
+        content: '';
+        position: absolute;
+        top: var(--y);
+        left: var(--x);
+        transform: translate(-50%, -50%);
+        background: radial-gradient(var(--glow-color), transparent, transparent);
+        width: 156px;
+        height: 156px;
+        opacity: 0;
+        transition: opacity .2s;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    .btn.glowing-corner:hover::before{
+        opacity: 1;
+    }
+
+    .btn.glowing-corner::after{
+        content: '';
+        position: absolute;
+        inset: 2px;
+        border-radius: inherit;
+        background: #00050fdf;
+        z-index: 1;
+    }
+
+
+
+</style>
