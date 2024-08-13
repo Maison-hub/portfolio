@@ -3,7 +3,7 @@ title: "LoueNous"
 description: "LoueNous est un projet étudiant qui nécessitait un gros travail d’UX design et
 il est toujours bon que vos compétences soient reconnues dans ce domaine. Je l’ai compris lorsque des étudiants en BUT Informatique recherchaient un UX designer et qu’on les a redirigés vers moi. Ils avaient pour idée de réaliser un site web permettant à des particuliers d’échanger et de louer leurs possessions à d’autres particuliers. Nous avons donc pris contact, c’est ainsi que le projet est né."
 year: "2023"
-date: "2023"
+date: "2023-11-21"
 cover: "/img/projects/louenous/thumbnail.png"
 categories: ["design", "UX Design"] 
 ---

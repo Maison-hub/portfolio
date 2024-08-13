@@ -34,7 +34,7 @@ onMounted(() => {
 
 
 <template>
-    <div class="flex flex-col pl-12 h-screen w-fit p-4 "
+    <div class="flex flex-col pl-12 h-screen w-fit p-4 justify-center"
         id="projectsContainer"
         ref="projectGallery">
         <h2 class="text-2xl font-bold mb-8">Mes derniers projets</h2>

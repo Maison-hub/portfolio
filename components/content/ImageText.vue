@@ -24,7 +24,7 @@ defineProps<{
 
 <template>
 
-    <div class="flex items-start justify-center md:gap-8 relative mb-8"
+    <div class="flex items-center justify-center md:gap-8 relative mb-8"
         :class="textPosition === 'left' ? 'flex-col md:flex-row' : 'flex-col-reverse md:flex-row-reverse'">
         <p class="w-full md:w-2/4">
             <slot />

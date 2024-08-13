@@ -186,27 +186,6 @@
         </div>
         </section>
 
-        <section id="more"
-            class="mb-16">
-            <h2 class="text-2xl font-bold mb-8 text-center">Mon parcour</h2>
-            <div>
-                <p class="px-[12vw] py-4 md:py-8 lg:py-12">
-                    étudiant en BUT MMI, passionné par les nouvelles technologies depuis mon plus jeune âge. Mon
-                    parcours a débuté avec Scratch en classe de 3ème, suivi d'un stage d'une semaine chez TCM, une
-                    agence web parisienne. Au lycée, la spécialité NSI m'a introduit au langage Python, tandis que j'ai
-                    développé des compétences en photographie, montage vidéo et création de sites web en parallèle. Le
-                    BUT MMI s'est imposé comme une opportunité idéale, combinant création numérique, communication et
-                    développement web. Au semestre 4, j'ai choisi de me spécialiser dans le développement web, explorant
-                    le back-end, le front-end et le développement d'applications mobiles. Mes compétences incluent HTML,
-                    CSS, JavaScript, PHP, Python, SQL, WordPress, Figma, Illustrator, SEO, After Effects et la
-                    photographie. La programmation m'a conduit à m'intéresser à l'UX et l'UI design, cherchant à allier
-                    esthétique, efficacité et rapidité dans mes projets web. J'explore également des frameworks tels
-                    qu'Express, Django et Vue.js, car pour moi, l'informatique est une passion qui m'incite à apprendre
-                    continuellement.</p>
-            </div>
-        </section>
-
-
         <Footer />
 
 

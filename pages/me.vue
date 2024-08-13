@@ -130,8 +130,9 @@ onMounted(() => {
         <MeExperiencePro />
         <MeEducation />
 
-        <section id="cv" class="w-full flex flex-row items-center justify-center gap-[20%]">
-            <a href="./cv/CV_Antoine_rubeo-lisa.pdf" target="_blank">
+        <section id="cv" class="w-full flex flex-row items-center justify-center gap-[10%] py-8">
+            <a href="/cv/CV_Antoine_rubeo-lisa.pdf" target="_blank" rel="noopener noreferrer">
+
                 <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
                     <span class="z-10 relative font-semibold uppercase text-xl">
                         Mon cv 🇫🇷
@@ -139,11 +140,13 @@ onMounted(() => {
                 </div>
             </a>
 
-            <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
-                    <span class="z-10 relative font-semibold uppercase text-xl">
-                        My english cv 🇬🇧
-                    </span>
-            </div>
+            <a href="/cv/English_CV_Antoine_rubeo-lisa.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
+                        <span class="z-10 relative font-semibold uppercase text-xl">
+                            My english cv 🇬🇧
+                        </span>
+                </div>
+            </a>
     
         </section>
 
@@ -162,12 +165,35 @@ onMounted(() => {
                 style="transform: translateX(50%) translateY(15%) rotate(8deg);" />
         </div>
 
-        <section class="flex items-center justify-center p-12 h-[30vh]">
+        <!-- <section class="flex items-center justify-center p-12 h-[30vh]">
             <div class="explode-btn p-1  bg-surface rounded-[12px]">
                 <button class="p-3 rounded-[8px]">
                     En savoir plus sur moi
                 </button>
             </div>
+        </section> -->
+
+        <section class="flex flex-col gap-4 items-center justify-center w-full bg-red-500 px-4 py-[10vh]">
+            <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+                Je suis passionné par les nouvelles technologies depuis longtemps. J’adore me renseigner sur les nouveautés tech du moment. Dans mon temps libre je code, j’apprends, je crée et découvre.
+                J’aime me challenger et me lancer dans de nouveaux projets web. Le plus palpitant est de commencer de zéro et d’arriver au résultat imaginé c’est je pense la chose qui me motive le plus.
+            </p>
+            <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+
+                Une autre partie de mon temps libre est consacrée à l’apprentissage que ce soit dans le cadre des cours ou par curiosité. Je navigue sur les forums je m’inscris à des cours en ligne et parfois je demande à Chat GPT.  
+
+            </p>
+            <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+
+                Parfois des idées de création me traverse l’esprit et je m’en donne à cœur joie de la réaliser. C’est ici aussi le moyen de découvrir de nouvelles techniques et de traduire mon imagination.
+            </p>
+
+                <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+
+                Enfin puisque je ne suis pas tout le temps en train de réfléchir, je me pose régulièrement devant un divertissement en général vidéo. Que ce soit une vidéo YouTube, un Film, une série ou même un animé.
+                Ma passion pour les jeux vidéo est l’occasion pour moi de rejoindre des amis sur Discord pour lancer une partie (puis deux, puis trois… ) tout en discutant et débattre sur tout et n’importe quoi.
+                Voilà tout ça c’est moi, enfin tout ça à la fois.
+            </p>
         </section>
 
 
