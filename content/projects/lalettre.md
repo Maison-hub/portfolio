@@ -24,3 +24,5 @@ Ce procédé permet de créer des effets visuels comique simplement comme la chu
 Le montage a principalement consisté à assembler les photos dans l'ordre pour créer une vidéo. Nous avons également ajouté des effets sonores pour rendre la vidéo plus vivante. Nous avons également ajouté une musique de fond pour accompagner l'histoire.
 
 ## Résultat
+
+::YoutubeVideo{:link="https://www.youtube.com/watch?v=jP-4VoJK2Gw"}
