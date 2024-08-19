@@ -1,6 +1,5 @@
 <script setup>
-
-import '~/assets/css/project.css'
+import '~/assets/css/project.css';
 
 </script>
 
@@ -10,7 +9,7 @@ import '~/assets/css/project.css'
       <div class="p-14">
         <div class="bg-mainBg bg-cover w-full h-full rounded-huge py-24 flex items-center justify-center relative">
           <HeaderNav class="absolute top-0 left-0" />
-          <h1 class="text-white title">{{ doc.title }}</h1>
+          <h1 class="text-white title text-center">{{ doc.title }}</h1>
         </div>
       </div>
     </header>
@@ -38,6 +37,8 @@ import '~/assets/css/project.css'
       </div>
     </main>
   </ContentDoc>
+
+  <!-- TODO: link to next {doc} by date -->
 
   <Footer />
 </template>

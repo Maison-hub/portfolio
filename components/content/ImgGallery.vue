@@ -13,21 +13,22 @@ defineProps<{
         },
         description: [string, null]
         quality: string | number | undefined,
+        additionalClasses: string | undefined
     }[]
 }>()
 </script>
 
 <template>
-    <div class="flex flex-row justify-center gap-12 mb-8 py-4 ">
+    <div class="flex flex-row justify-center items-center gap-12 mb-8 py-4 h-[50vh] max-h- ">
         <div v-for="(image, index) in images"
             :key="index"
-            class=" grow h-[50vh] bg-center rounded-huge relative flex flex-col items-start gap-2">
+            class=" grow h-full bg-center rounded-huge relative flex flex-col items-center gap-2">
             <NuxtImg :src="image.src"
-                class="w-full h-full object-cover rounded-imgProject"
-                :class="image.bgpos"
+            :class="[image.bgpos??'object-cover', image.additionalClasses]"
+                class="w-full h-full rounded-imgProject"
                 :quality="image.quality"
                 fit="cover" />
-            <p class="text-gray-500 italic text-sm">{{ image.description }}</p>
+            <p class="text-gray-500 italic text-sm ">{{ image.description }}</p>
         </div>
     </div>
 </template>

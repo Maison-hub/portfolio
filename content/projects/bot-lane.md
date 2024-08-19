@@ -4,7 +4,7 @@ description: "Bot Lane est un projet réalisé en binôme lors de mon année de 
 year: "2021"
 date: "2021-05-01"
 cover: "/img/projects/botlane/thumbnail.png"
-categories: ["front-end", "Python"]
+categories: ["front-end", "Python", 'Discord']
 ---
 
 ## Rapide explication
