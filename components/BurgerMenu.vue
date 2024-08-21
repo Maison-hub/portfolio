@@ -44,9 +44,6 @@ function handleClickOutside() {
                     <MenuBurgerMenuLink text="Projets"
                         :delay="3"
                         route="/projects" />
-                    <MenuBurgerMenuLink text="Contact"
-                        :delay="4"
-                        route="#" />
                 </div>
             </nav>
         </div>

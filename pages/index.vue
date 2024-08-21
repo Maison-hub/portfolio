@@ -1,4 +1,5 @@
 <template>
+    <Preloader />
     <div class="relative overflow-x-hidden">
         <section class="p-14 h-[85vh]">
 
@@ -227,7 +228,6 @@ onMounted(() => {
         duration: 1,
     })
 })
-
 
 </script>
 

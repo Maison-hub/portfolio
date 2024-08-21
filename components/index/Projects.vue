@@ -10,10 +10,6 @@ onMounted(() => {
     projectsWidth = projectGallery.value ? projectGallery.value.offsetWidth : 0
     const ammountToScroll = Math.abs(projectsWidth - window.innerWidth);
 
-    console.log('windows width', window.innerWidth);
-    console.log('projectsWidth', projectsWidth);
-    console.log('amount to scroll', ammountToScroll);
-
     useGsap.to('#projectsContainer', {
         scrollTrigger: {
             trigger: '#projectsContainer',
