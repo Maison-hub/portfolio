@@ -9,7 +9,7 @@ categories: ["front-end", "Python", 'Discord']
 
 ## Rapide explication
 
-La nature du projet de première étant libre nous avons décidé de nous pencher sur la création d'un bot discord. Nous avons baptisé ce Bot: Bot lane en référence au jeu Ligue of Légende et sa carte iconique. Au départ de ce projet nous n'avions jamais manipulé de librarie Python comme discord.py et je n'avais jamais créé de site internet entier seulement quelques pages.
+La nature du projet de première étant libre nous avons décidé de nous pencher sur la création d'un bot discord. Nous avons baptisé ce Bot: Bot lane en référence au jeu Ligue of Légende et sa carte iconique. Au départ de ce projet nous n'avions jamais manipulé de librarie Python comme discord py et je n'avais jamais créé de site internet entier seulement quelques pages.
 
 ## Le logo
 
@@ -17,7 +17,7 @@ J'ai réalisé le logo en ayant envie de me référer à la forme de la carte du
 
 ## Le site internet
 
-Le site internet a été codé en HTML, CSS, Javascript sans framework ou librarie sauf pour la barre de navigation qui utilise à bootstrap pour etre responsive. Le site a été codé sans référence à un design en raison du temps et de mes compétences a l'époque de la réalisation. Le site est entièrement responsif. J'ai travaillé également le SEO grace aux balises Meta/OG et a l'utilisation de mots clés
+Le site internet a été codé en HTML, CSS, Javascript sans framework ou librarie sauf pour la barre de navigation qui utilise à bootstrap pour être responsive. Le site a été codé sans référence à un design en raison du temps et de mes compétences a l'époque de la réalisation. Le site est entièrement responsif. J'ai travaillé également le SEO grace aux balises Meta/OG et a l'utilisation de mots clés
 
 ## Hébergement
 
@@ -25,4 +25,4 @@ Au moment du rendu le site était hébergé sur Hostiger et possédait son propr
 
 ## Conclusion
 
-Ce projet m'a permis de réaliser mon premier site web complet et a fortement développé mes compétences en HTML, CSS et Javascript. Il m'a également permis de découvrir la librarie Discord .py. De plus j'ai découvert comment se passent l'hébergement d'un site internet et certains ressorts du SEO.
+Ce projet m'a permis de réaliser mon premier site web complet et a fortement développé mes compétences en HTML, CSS et Javascript. Il m'a également permis de découvrir la librarie Discorde .py. De plus j'ai découvert comment se passent l'hébergement d'un site internet et certains ressorts du SEO.

@@ -13,8 +13,8 @@ categories: ["Vidéo", "storytelling"]
 
 ### Historique de la marque
 
-Afin de réaliser une stratégie de communication efficace pour le lancement de la nouvelle Renault Mégane 100% électrique, nous avons réalisé une étude préalable. Nous avons etabli un historique de la marque pour comprendre les valeurs de Renault.
-Nous avons ensuite analysé les concurrents, les cibles, les tendances du marché et les attentes des consommateurs. Nous avons également réalisé une étude de la concurrence pour comprendre les forces et les faiblesses des modèles simillaire chez d'autre marque.
+Afin de réaliser une stratégie de communication efficace pour le lancement de la nouvelle Renault Mégane 100% électrique, nous avons réalisé une étude préalable. Nous avons établi un historique de la marque pour comprendre les valeurs de Renault.
+Nous avons ensuite analysé les concurrents, les cibles, les tendances du marché et les attentes des consommateurs. Nous avons également réalisé une étude de la concurrence pour comprendre les forces et les faiblesses des modèles similaires chez d'autre marques.
 
 Cette étude nous a permis de définir les objectifs de communication et de déterminer les objectifs SMART.
 
@@ -32,7 +32,7 @@ images:
 
 ### Personas
 
-A partir de profile typique nous avons créer des personas pour mieux cibler les consommateurs. Nous avons défini les caractéristiques démographiques, les besoins, les attentes et les comportements d'achat de chaque persona.
+À partir de profilé typique nous avons créé des personas pour mieux cibler les consommateurs. Nous avons défini les caractéristiques démographiques, les besoins, les attentes et les comportements d'achat de chaque persona.
 
 ::img-gallery
 ---
@@ -53,7 +53,7 @@ images:
 
 ### Audit 
 
-Nous avons étidier en détails les reseaux sociaux de **Renault** et de son concurent ***Peugeot*** pour comprendre leur stratégie actuelle et les points d'amélioration. C'est annalise nous ont permis de construire des tableaux permettant d'identifier les forces et les faiblesses de la marque sur les réseaux sociaux.
+Nous avons étudié en détail les réseaux sociaux de **Renault** et de son concurent ***Peugeot*** pour comprendre leur stratégie actuelle et les points d'amélioration. C'est analyse nous ont permis de construire des tableaux permettant d'identifier les forces et les faiblesses de la marque sur les réseaux sociaux.
 
 ::img-gallery
 ---
@@ -69,7 +69,7 @@ images:
 
 ### Stratégie de communication et marketing
 
-Pour notre stratégie nous avons imaginer un partenaria avec les cinéma UGC présent dans toute la France. Des bornes seront installées dans les cinémas pour permettre aux utilisateurs de rechargér leur véhicules pendant la séance. Ainssi le partenaria permettra de financer l'installation des bornes et de permettre au spéctateurs de recharger leur véhicule gratuitement pendant leur séance.
+Pour notre stratégie nous avons imaginé un partenariat avec les cinémas UGC présent dans toute la France. Des bornes seront installées dans les cinémas pour permettre aux utilisateurs de recharger leur véhicule pendant la séance. Ainsi le partenariat permettra de financer l'installation des bornes et de permettre aux spectateurs de recharger leur véhicule gratuitement pendant leur séance.
 
 ::img-gallery
 ---
@@ -81,11 +81,11 @@ images:
 ---
 ::
 
-Nous avons également imaginer un partenaria avec le Youtubeur *Sofyan* qui a une chaine orienté cinéma et donc parfaite pour faire connaitre le partenaria avec UGC. Sofyan pourra faire une vidéo de présentation de la nouvelle Renault Mégane 100% électrique et de son partenaria avec UGC.
+Nous avons également imaginé un partenariat avec le Youtubeur *Sofyan* qui a une chaine orientée cinéma et donc parfaite pour faire connaitre le partenariat avec UGC. Sofyan pourra faire une vidéo de présentation de la nouvelle Renault Mégane 100% électrique et de son partenariat avec UGC.
 
-Une publicité audiovisuel a également été imaginé pour la télévision et les réseaux sociaux. La publicité mettra en avant les valeurs de la marque et les avantages de la nouvelle Renault Mégane 100% électrique.
+Une publicité audiovisuelle a également été imaginé pour la télévision et les réseaux sociaux. La publicité mettra en avant les valeurs de la marque et les avantages de la nouvelle Renault Mégane 100% électrique.
 
-Enfin nous avons imaginer une serie de publicité pour l'affichage public dans les grandes villes de France. Les affiches mettrons en avant la nouvelle Mégane 100% électrique dans différents univers montrant la présence en grands nombre des bornes élécrtrique.
+Enfin nous avons imaginé une série de publicités pour l'affichage public dans les grandes villes de France. Les affiches mettront en avant la nouvelle Mégane 100% électrique dans différents univers montrant la présence en grand nombre des bornes électrique.
 
 ::img-gallery
 ---

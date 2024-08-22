@@ -11,13 +11,13 @@ categories: ["Vidéo", "storytelling"]
 
 ### Écriture du scénario
 
-Nous avons commencé par écrire un scénario simple pour notre vidéo. A travers un document partagé nous avons ecrit le scénario mettant en place une fille qui souhaite donner une lettre à un garçon. Nous avons détaillé les actions et les plans pour faciliter le tournage.
+Nous avons commencé par écrire un scénario simple pour notre vidéo. À travers un document partagé nous avons écrit le scénario mettant en place une fille qui souhaite donner une lettre à un garçon. Nous avons détaillé les actions et les plans pour faciliter le tournage.
 
 ### Tournage
 
-Nous avons utilisé la technique de la pixillation pour réaliser notre vidéo. Il s'agit d'une technique d'animation image par image. Nous avons donc pris des photos à chaque étape de l'histoire. Nous avons décomposé les mouvements et pris un maximum de photos pour avoir un rendu fluide.
+Nous avons utilisé la technique de la pixilation pour réaliser notre vidéo. Il s'agit d'une technique d'animation image par image. Nous avons donc pris des photos à chaque étape de l'histoire. Nous avons décomposé les mouvements et pris un maximum de photos pour avoir un rendu fluide.
 
-Ce procédé permet de créer des effets visuels comique simplement comme la chute d'un personnage. 
+Ce procédé permet de créer des effets visuels comiques simplement comme la chute d'un personnage.
 
 ### Montage et post-production
 

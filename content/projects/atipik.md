@@ -9,9 +9,9 @@ categories: ["Communication visuel", "Graphisme", "Marketing"]
 
 ## Création du projet
 
-Ce projet est le résultat d'un exercice de la matière 'stratégie de communication' l'objectif de l'exercice était de créer un produit innovant dans un secteur existant. Nous avons choisi les chips pour leur possibilité de déclinaisons et leur positionnement sur le marché. Nous avons donc créé une marque de chips innovante et écoresponsable.
+Ce projet est le résultat d'un exercice de la matière "stratégie de communication" l'objectif de l'exercice était de créer un produit innovant dans un secteur existant. Nous avons choisi les chips pour leur possibilité de déclinaisons et leur positionnement sur le marché. Nous avons donc créé une marque de chips innovante et écoresponsable.
 
-Nous avons commencé par trouver un nom pour notre marque. Étant donnée que nous voulions créer une marque de chips avec des gouts originaux et jamais vus nous n'avons choisi 'Atipik'. Nous devions également trouver un slogan pour notre marque. Nous avons donc choisi 'Qui s'y frotte Typik' qui est un jeu de mots avec le nom de la marque et qui met en avant le côté original de notre marque.
+Nous avons commencé par trouver un nom pour notre marque. Étant donnée que nous voulions créer une marque de chips avec des gouts originaux et jamais vus nous n'avons choisi "Atipik'". Nous devions également trouver un slogan pour notre marque. Nous avons donc choisi "Qui s'y frottons Typik'" qui est un jeu de mots avec le nom de la marque et qui met en avant le côté original de notre marque.
 
 ## Le logo
 
@@ -24,7 +24,7 @@ image:
     width: "w-[20%]"
 textPosition: "left"
 ---
-Nous avons créé un logo qui met en avant le côté original de notre marque. Nous avons donc choisit une police de caractères qui sort de l'ordinaire et qui est facilement reconnaissable. Nous avons également utilisé un point d'exclamation pour mettre en avant le côté original de notre marque. Le logo est une sorte de mascotte représenté par un hérisson. Nous avons fait ce choix pour coller au piquant du nom de la marque et c'est également une association avec l'éco-responsabilité de notre marque.
+Nous avons créé un logo qui met en avant le côté original de notre marque. Nous avons donc choisit une police de caractères qui sort de l'ordinaire et qui est facilement reconnaissable. Nous avons également utilisé un point d'exclamation pour mettre en avant le côté original de notre marque. Le logo est une sorte de mascotte représenté par un hérisson. Nous avons fait ce choix pour coller au piquant du nom de la marque et c'est également une association avec l'écoresponsabilité de notre marque.
 ::
 
 ## Packaging
@@ -38,7 +38,7 @@ image:
     width: "w-[20%]"
 textPosition: "right"
 ---
-Nous avons réalisé avec des mockups Photoshop des prototypes de packaging. Nous avons au moment de la création déterminé un certain nombre de gouts originaux avec pour chacun d'entre eux un jeu de mots à inscrire sur le paquet. Par exemple pour le goût huitre le jeu de mots est 'à manger par huitre'.
+Nous avons réalisé avec des mockups Photoshop des prototypes de packaging. Nous avons au moment de la création déterminé un certain nombre de gouts originaux avec pour chacun d'entre eux un jeu de mots à inscrire sur le paquet. Par exemple pour le goût huitre le jeu de mots est "à manger par huitre".
 ::
 
 ::img-gallery
@@ -64,5 +64,5 @@ image:
     width: "w-[20%]"
 textPosition: "left"
 ---
-Enfin nous avons regroupé tout ce que nous avons créé dans une charte graphique. Nous avons définit les couleurs principales le logo le slogan avec la police et un exemple de packaging.
+Enfin nous avons regroupé tout ce que nous avons créé dans une charte graphique. Nous avons défini les couleurs principales le logo le slogan avec la police et un exemple de packaging.
 ::

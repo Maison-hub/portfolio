@@ -25,7 +25,7 @@ image:
     width: "w-[50%]"
 textPosition: "left"
 ---
-Ce projet nous a permis de nous confronter à des problématiques nouvelles. La principale difficulté était l'accès aux données en temps réel. Nous avons utilisé pour cela la fonction \"fetch\" en Javascript. Cela nous a permis de récupérer les données d'un fichier json diffusées par le ministère des transports. Une fois ces données récupérées nous les avons traité et organisé pour les rendre à l'utilisateur de manière agréable. La seconde problématique était l'implémentation d'une carte et l'affichage de marker pour localiser les stations. Pour ce faire nous avons utilisé open Street map et nous avons placé les stations grace à leur longitude et latitude. Enfin nous avons implémenté un algorithme qui calcule la station la plus proche de vous grace a votre localisation.
+Ce projet nous a permis de nous confronter à des problématiques nouvelles. La principale difficulté était l'accès aux données en temps réel. Nous avons utilisé pour cela la fonction \"fetch\" en Javascript. Cela nous a permis de récupérer les données d'un fichier json diffusées par le ministère des transports. Une fois ces données récupérées nous les avons traité et organisé pour les rendre à l'utilisateur de manière agréable. La seconde problématique était l'implémentation d'une carte et l'affichage de marker pour localiser les stations. Pour ce faire nous avons utilisé open Street map et nous avons placé les stations grace à leur longitude et latitude. Enfin nous avons implémenté un algorithme qui calcule la station la plus proche de vos grâce à votre localisation.
 ::
 
 ## Responsive
@@ -60,8 +60,8 @@ images:
 
 ## L'Hebergement
 
-Comme l'indiquait les consignes nous avons hébergé le site sur le serveur pédagogique Webetu. Nous avons établi une connexion au serveur en SFTP avec FileZilla ce qui nous ont permis de transférer les fichiers. Cependant l'accès au site par navigateur nécessite un login à l'université j'ai donc également hébergé le site sur git hub
+Comme l'indiquait les consignes nous avons hébergé le site sur le serveur pédagogique Webetu. Nous avons établi une connexion au serveur en SFTP avec FileZilla ce qui nous ont permis de transférer les fichiers. Cependant l'accès au site par navigateur nécessite un login à l'université j'ai donc également hébergé le site sur git hub.
 
 ## Apport personnel
 
-Ce projet m'a permis de découvrir l'utilisation de fichier json, l'intégration d'une carte sur un site web, l'utilisation des autos layout dans figma. En général ce projet m'a rendu plus à l'aise avec l'utilisation de figma et l'intégration de maquette. Enfin j'ai exploré la responsive avec l'implémentation d'un menu mobile
+Ce projet m'a permis de découvrir l'utilisation de fichier json, l'intégration d'une carte sur un site web, l'utilisation des autos layout dans figma. En général ce projet m'a rendu plus à l'aise avec l'utilisation de figma et l'intégration de maquette. Enfin j'ai exploré là responsive avec l'implémentation d'un menu mobile.
