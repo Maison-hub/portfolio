@@ -1,6 +1,8 @@
 <template>
     <div>
-        <Preloader />
+        <div v-if="showPreloader">
+            <Preloader />
+        </div>
         <div class="relative overflow-x-hidden">
             <section class="p-14 h-[85vh]">
 
@@ -198,6 +200,8 @@
 <script lang="ts" setup>
 import SplitType from 'split-type'
 
+const showPreloader = ref(true);
+
 //set icon default color
 const iconColor = '#2194FF';
 
@@ -207,6 +211,15 @@ const animateValue = ref(0)
 //rotate cross on scroll
 onMounted(() => {
     const text = SplitType.create('#starAfter')
+
+    if (localStorage.getItem('firstVisit') === 'true') {
+        showPreloader.value = false;
+    } else {
+        localStorage.setItem('firstVisit', 'true');
+        setTimeout(() => {
+        showPreloader.value = false;
+        }, 4000); // Temps minimum de préchargement
+    }
 
     let tl = useGsap.timeline({
         scrollTrigger: {
