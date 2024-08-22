@@ -82,123 +82,125 @@ onMounted(() => {
 </script>
 
 <template>
-    <header>
-        <div class="p-14">
-            <div class="bg-mainBg bg-cover w-full h-full rounded-huge py-24 flex items-center justify-center relative">
-                <HeaderNav class="absolute top-0 left-0" />
-                <h1 class="text-white title uppercase"> à propos de moi</h1>
-            </div>
-        </div>
-    </header>
-    <div class="min-h-screen p-14">
-
-        <div class="flex flex-row w-full justify-center gap-4 py-8"
-            id="imgrow1">
-            <NuxtImg src="/img/me/me1.jpg"
-                class="object-cover rounded-imgProject w-[40%] h-[20%]"
-                fit="cover"
-                id="me1"
-                style="transform: translateX(-50%) translateY(15%) rotate(-8deg)" />
-
-            <NuxtImg src="/img/me/me4.jpg"
-                class="object-cover rounded-imgProject w-[40%] h-[20%]"
-                fit="cover"
-                id="me2"
-                style="transform: translateX(50%) translateY(15%) rotate(8deg);" />
-
-        </div>
-
-        <section class="flex flex-row items-center justify-center w-full bg-red-500 px-4 py-[10vh]">
-            <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
-                Étudiant en BUT MMI, passionné par les nouvelles technologies depuis mon plus jeune âge. Mon
-                parcours a débuté avec Scratch en classe de 3ème, suivi d'un stage d'une semaine chez The Coding
-                Machine, une
-                agence web parisienne. Au lycée, la spécialité NSI m'a introduit au langage Python, tandis que j'ai
-                développé des compétences en photographie, montage vidéo et création de sites web en parallèle. Le
-                BUT MMI s'est imposé comme une opportunité idéale, combinant création numérique, communication et
-                développement web. Au quatrième semestre, j'ai choisi de me spécialiser dans le développement web,
-                explorant
-                le back-end, le front-end et le développement d'applications mobiles. Mes compétences incluent HTML,
-                CSS, JavaScript, PHP, Python, SQL, WordPress, Figma, Illustrator, SEO, After Effects et la
-                photographie. La programmation m'a conduit à m'intéresser à l'UX et l'UI design, cherchant à allier
-                esthétique, efficacité et rapidité dans mes projets web. J'explore également des frameworks tels
-                qu'Express, Django et Vue.js, car pour moi, l'informatique est une passion qui m'incite à apprendre
-                continuellement.
-            </p>
-        </section>
-
-        <MeExperiencePro />
-        <MeEducation />
-
-        <section id="cv" class="w-full flex flex-row items-center justify-center gap-[10%] py-8">
-            <a href="/cv/CV_Antoine_rubeo-lisa.pdf" target="_blank" rel="noopener noreferrer">
-
-                <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
-                    <span class="z-10 relative font-semibold uppercase text-xl">
-                        Mon cv 🇫🇷
-                    </span>
+    <div>
+        <header>
+            <div class="p-14">
+                <div class="bg-mainBg bg-cover w-full h-full rounded-huge py-24 flex items-center justify-center relative">
+                    <HeaderNav class="absolute top-0 left-0" />
+                    <h1 class="text-white title uppercase"> à propos de moi</h1>
                 </div>
-            </a>
+            </div>
+        </header>
+        <div class="min-h-screen p-14">
 
-            <a href="/cv/English_CV_Antoine_rubeo-lisa.pdf" target="_blank" rel="noopener noreferrer">
-                <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
+            <div class="flex flex-row w-full justify-center gap-4 py-8"
+                id="imgrow1">
+                <NuxtImg src="/img/me/me1.jpg"
+                    class="object-cover rounded-imgProject w-[40%] h-[20%]"
+                    fit="cover"
+                    id="me1"
+                    style="transform: translateX(-50%) translateY(15%) rotate(-8deg)" />
+
+                <NuxtImg src="/img/me/me4.jpg"
+                    class="object-cover rounded-imgProject w-[40%] h-[20%]"
+                    fit="cover"
+                    id="me2"
+                    style="transform: translateX(50%) translateY(15%) rotate(8deg);" />
+
+            </div>
+
+            <section class="flex flex-row items-center justify-center w-full bg-red-500 px-4 py-[10vh]">
+                <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+                    Étudiant en BUT MMI, passionné par les nouvelles technologies depuis mon plus jeune âge. Mon
+                    parcours a débuté avec Scratch en classe de 3ème, suivi d'un stage d'une semaine chez The Coding
+                    Machine, une
+                    agence web parisienne. Au lycée, la spécialité NSI m'a introduit au langage Python, tandis que j'ai
+                    développé des compétences en photographie, montage vidéo et création de sites web en parallèle. Le
+                    BUT MMI s'est imposé comme une opportunité idéale, combinant création numérique, communication et
+                    développement web. Au quatrième semestre, j'ai choisi de me spécialiser dans le développement web,
+                    explorant
+                    le back-end, le front-end et le développement d'applications mobiles. Mes compétences incluent HTML,
+                    CSS, JavaScript, PHP, Python, SQL, WordPress, Figma, Illustrator, SEO, After Effects et la
+                    photographie. La programmation m'a conduit à m'intéresser à l'UX et l'UI design, cherchant à allier
+                    esthétique, efficacité et rapidité dans mes projets web. J'explore également des frameworks tels
+                    qu'Express, Django et Vue.js, car pour moi, l'informatique est une passion qui m'incite à apprendre
+                    continuellement.
+                </p>
+            </section>
+
+            <MeExperiencePro />
+            <MeEducation />
+
+            <section id="cv" class="w-full flex flex-row items-center justify-center gap-[10%] py-8">
+                <a href="/cv/CV_Antoine_rubeo-lisa.pdf" target="_blank" rel="noopener noreferrer">
+
+                    <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
                         <span class="z-10 relative font-semibold uppercase text-xl">
-                            My english cv 🇬🇧
+                            Mon cv 🇫🇷
                         </span>
-                </div>
-            </a>
-    
-        </section>
+                    </div>
+                </a>
 
-        <div class="flex flex-row w-full justify-center gap-4 py-8"
-            id="imgrow2">
-            <NuxtImg src="/img/me/me3.jpg"
-                class="object-cover rounded-imgProject w-[25%] h-[35%]"
-                fit="cover"
-                id="me3"
-                style="transform: translateX(-50%) translateY(15%) rotate(-8deg)" />
+                <a href="/cv/English_CV_Antoine_rubeo-lisa.pdf" target="_blank" rel="noopener noreferrer">
+                    <div class="btn glowing-corner p-1  bg-surface rounded-[12px] px-8 py-4 cursor-pointer relative" style="--glow-color: #2EFAFA " ref="el => btnRefs.value[0] = el">
+                            <span class="z-10 relative font-semibold uppercase text-xl">
+                                My english cv 🇬🇧
+                            </span>
+                    </div>
+                </a>
+        
+            </section>
 
-            <NuxtImg src="/img/me/me2.jpg"
-                class="object-cover rounded-imgProject w-[25%] h-[35%]"
-                fit="cover"
-                id="me4"
-                style="transform: translateX(50%) translateY(15%) rotate(8deg);" />
-        </div>
+            <div class="flex flex-row w-full justify-center gap-4 py-8"
+                id="imgrow2">
+                <NuxtImg src="/img/me/me3.jpg"
+                    class="object-cover rounded-imgProject w-[25%] h-[35%]"
+                    fit="cover"
+                    id="me3"
+                    style="transform: translateX(-50%) translateY(15%) rotate(-8deg)" />
 
-        <!-- <section class="flex items-center justify-center p-12 h-[30vh]">
-            <div class="explode-btn p-1  bg-surface rounded-[12px]">
-                <button class="p-3 rounded-[8px]">
-                    En savoir plus sur moi
-                </button>
+                <NuxtImg src="/img/me/me2.jpg"
+                    class="object-cover rounded-imgProject w-[25%] h-[35%]"
+                    fit="cover"
+                    id="me4"
+                    style="transform: translateX(50%) translateY(15%) rotate(8deg);" />
             </div>
-        </section> -->
 
-        <section class="flex flex-col gap-4 items-center justify-center w-full bg-red-500 px-4 py-[10vh]">
-            <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
-                Je suis passionné par les nouvelles technologies depuis longtemps. J’adore me renseigner sur les nouveautés tech du moment. Dans mon temps libre je code, j’apprends, je crée et découvre.
-                J’aime me challenger et me lancer dans de nouveaux projets web. Le plus palpitant est de commencer de zéro et d’arriver au résultat imaginé c’est je pense la chose qui me motive le plus.
-            </p>
-            <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+            <!-- <section class="flex items-center justify-center p-12 h-[30vh]">
+                <div class="explode-btn p-1  bg-surface rounded-[12px]">
+                    <button class="p-3 rounded-[8px]">
+                        En savoir plus sur moi
+                    </button>
+                </div>
+            </section> -->
 
-                Une autre partie de mon temps libre est consacrée à l’apprentissage que ce soit dans le cadre des cours ou par curiosité. Je navigue sur les forums je m’inscris à des cours en ligne et parfois je demande à Chat GPT.  
-
-            </p>
-            <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
-
-                Parfois des idées de création me traverse l’esprit et je m’en donne à cœur joie de la réaliser. C’est ici aussi le moyen de découvrir de nouvelles techniques et de traduire mon imagination.
-            </p>
-
+            <section class="flex flex-col gap-4 items-center justify-center w-full bg-red-500 px-4 py-[10vh]">
+                <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+                    Je suis passionné par les nouvelles technologies depuis longtemps. J’adore me renseigner sur les nouveautés tech du moment. Dans mon temps libre je code, j’apprends, je crée et découvre.
+                    J’aime me challenger et me lancer dans de nouveaux projets web. Le plus palpitant est de commencer de zéro et d’arriver au résultat imaginé c’est je pense la chose qui me motive le plus.
+                </p>
                 <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
 
-                Enfin puisque je ne suis pas tout le temps en train de réfléchir, je me pose régulièrement devant un divertissement en général vidéo. Que ce soit une vidéo YouTube, un Film, une série ou même un animé.
-                Ma passion pour les jeux vidéo est l’occasion pour moi de rejoindre des amis sur Discord pour lancer une partie (puis deux, puis trois… ) tout en discutant et débattre sur tout et n’importe quoi.
-                Voilà tout ça c’est moi, enfin tout ça à la fois.
-            </p>
-        </section>
+                    Une autre partie de mon temps libre est consacrée à l’apprentissage que ce soit dans le cadre des cours ou par curiosité. Je navigue sur les forums je m’inscris à des cours en ligne et parfois je demande à Chat GPT.  
+
+                </p>
+                <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+
+                    Parfois des idées de création me traverse l’esprit et je m’en donne à cœur joie de la réaliser. C’est ici aussi le moyen de découvrir de nouvelles techniques et de traduire mon imagination.
+                </p>
+
+                    <p class="md:text-xl sm:text-l text-base lg:w-10/12 w-9/12 relative z-10 text-justify font-light ">
+
+                    Enfin puisque je ne suis pas tout le temps en train de réfléchir, je me pose régulièrement devant un divertissement en général vidéo. Que ce soit une vidéo YouTube, un Film, une série ou même un animé.
+                    Ma passion pour les jeux vidéo est l’occasion pour moi de rejoindre des amis sur Discord pour lancer une partie (puis deux, puis trois… ) tout en discutant et débattre sur tout et n’importe quoi.
+                    Voilà tout ça c’est moi, enfin tout ça à la fois.
+                </p>
+            </section>
 
 
+        </div>
+        <Footer />
     </div>
-    <Footer />
 </template>
 
 <style scoped>
