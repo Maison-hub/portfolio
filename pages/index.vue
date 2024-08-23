@@ -74,7 +74,7 @@
 
             <IndexIamSection />
 
-            <section class="comp mb-16 p-14">
+            <section class="comp p-14">
                 <div class="flex flex-row items-center justify-center w-full">
                     <h2 class="text-4xl font-bold mb-14  text-center">
                         Compétences
@@ -188,6 +188,61 @@
                     text="Illustrator" />
                 </div>
             </div>
+            </section>
+
+            <section id="extraComp" class="w-full p-11 mb-16">
+                <div class="flex flex-row items-center justify-center w-full">
+                    <h2 class="text-4xl font-bold mb-14  text-center">
+                        Autres compétences
+                    </h2>
+                </div>                
+                <div class="flex flex-row gap-4 justify-center flex-wrap px-[12vw] ">
+                    <div class="p-4 bg-surface rounded-lg">
+                        <span class="font-bold text-xl !mb-0">Rédaction</span>
+                        <ul class="p-4 font-thin">
+                            <li>Rédaction d'articles journaux/blog</li>
+                            <li>Communiqué de presse</li>
+                            <li>Réecriture créative</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4 bg-surface rounded-lg">
+                        <span class="font-bold text-xl !mb-0">Audit multimédia</span>
+                        <ul class="p-4 font-thin">
+                            <li>Audit de site web</li>
+                            <li>Audit réseaux sociaux</li>
+                            <li>Annalyse SEO</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4 bg-surface rounded-lg">
+                        <span class="font-bold text-xl !mb-0">Vidéo/Photographie</span>
+                        <ul class="p-4 font-thin">
+                            <li>Réalisation audiovisuel</li>
+                            <li>Motion design et annimation</li>
+                            <li>Prise de vue photographique</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4 bg-surface rounded-lg">
+                        <span class="font-bold text-xl !mb-0">Marketing Digitale</span>
+                        <ul class="p-4 font-thin">
+                            <li>Montage d'une stratégie de communication</li>
+                            <li>Analyse concurrentielle</li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4 bg-surface rounded-lg">
+                        <span class="font-bold text-xl !mb-0">Gestion de projet</span>
+                        <ul class="p-4 font-thin">
+                            <li>Suivie de projet</li>
+                            <li>Méthodes agiles</li>
+                            <li>Fonctionnement en sprint</li>
+                        </ul>
+                    </div>
+                </div>
+            
+
             </section>
 
             <Footer />
