@@ -51,7 +51,7 @@ onMounted(() => {
                 date="Avril - Août 2024"
                 position="left"
                 duration="4mois"
-                description="Develloppement full-stack" />
+                description="Develloppement full-stack: Laravel, LiveWire et Tailwind CSS au sein d'une application SAAS" />
 
             <MeRow title="Stage Workadventure"
                 date="Mars 2023"

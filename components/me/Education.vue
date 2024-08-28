@@ -45,17 +45,17 @@ onMounted(() => {
 
         <div class="w-full my-14 relative" id="education">
             <div class="line"></div>
-            <MeRow title="Stage WorkAdventure"
-                date="Avril - Août 2024"
+            <MeRow title="BUT MMI"
+                date="2022 - Aujourd'hui"
                 position="left"
-                duration="4mois"
-                description="Develloppement full-stack" />
+                duration="Métiers du multimedia et de l’internet"
+                description="IUT Nancy-Charlemagne" />
 
-            <MeRow title="Stage Workadventure"
-                date="Mars 2023"
+            <MeRow title="BAC Géneral "
+                date="2019 - 2022"
                 position="right"
-                duration="2 semaines"
-                description="Conception sur Figma de différents composants du nouveau design système. En garantissant une cohérence esthétique pour renforcer l’identité de l’entreprise." />
+                duration="Spécialité Mathématiques et Informatique"
+                description="Mention très bien au lycée Hélène Boucher - Thionville" />
         </div>
 
     </section>
